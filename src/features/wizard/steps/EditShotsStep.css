@@ -1,0 +1,75 @@
+/*
+ * Edit screen — `.hop` / `.track-hint` from the mockup (docs/design/mockups.html, “03b. Edit”).
+ *
+ * One block with its own padding: `.wizard__content` spaces its children with a 14px gap,
+ * and that would add up with the margins inside.
+ */
+.edit-shots {
+  display: block;
+}
+
+.edit-shots__media {
+  margin-bottom: 12px;
+}
+
+/*
+ * Stepping through markers with buttons, not by aiming: adjacent markers of a burst sit
+ * three pixels apart on the track, and “click the right one” is a lottery. 44px buttons
+ * are finger-sized, and the current marker is written between them.
+ */
+.edit-shots__hop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.edit-shots__hop button {
+  min-height: 44px;
+  padding: 0 15px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-shots__hop button:hover {
+  border-color: var(--accent);
+  color: var(--text-h);
+}
+
+.edit-shots__who {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--text-muted);
+}
+
+/* The marker's second, large and monospace: it is the only number on screen
+   that shows the jump actually happened. */
+.edit-shots__who b {
+  display: block;
+  margin-bottom: 3px;
+  font-family: var(--mono);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-h);
+  font-variant-numeric: tabular-nums;
+}
+
+.edit-shots__hint {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}

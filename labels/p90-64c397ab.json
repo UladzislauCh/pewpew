@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "clip": "p90.mp4",
+  "slug": "p90-64c397ab",
+  "duration": 18.483083900226756,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T16:58:57.605Z",
+  "complete": false,
+  "shots": [
+    {
+      "time": 7.6780952380952385,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.840362811791383,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.943582766439909,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.003628117913832,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.079727891156463,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.160884353741496,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.303968253968254,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.39609977324263,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.595396825396826,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.361836734693878,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.478095238095237,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.5540589569161,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.615079365079366,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.686575963718822,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.698843537414966,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 12.825034013605443,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.126780045351474,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.200068027210884,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.268321995464852,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.305396825396825,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.419274376417233,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 14.484126984126984,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 15.683605442176871,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 15.768231292517006,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 15.83140589569161,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 15.926553287981859,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 15.973900226757369,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 16.04904761904762,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    },
+    {
+      "time": 16.18580498866213,
+      "source": "own",
+      "weapon": "p90",
+      "hard": false
+    }
+  ],
+  "notes": "Разметка не закончена: слишком много выстрелов, доразметить."
+}

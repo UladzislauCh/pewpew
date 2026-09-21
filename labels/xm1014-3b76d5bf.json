@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "clip": "xm1014.mp4",
+  "slug": "xm1014-3b76d5bf",
+  "duration": 30.67356009070295,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:42:27.591Z",
+  "notes": "Есть перезарядка",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.8857369614512471,
+      "source": "enemy",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 1.2305215419501134,
+      "source": "enemy",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 1.3828344671201813,
+      "source": "enemy",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 1.5391836734693878,
+      "source": "enemy",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 1.786326530612245,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 3.2258956916099772,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.553265306122449,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 5.326167800453515,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.438730158730158,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.572789115646258,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.669138321995465,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.098458049886621,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.264875283446712,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.423242630385488,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.735873015873016,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.925714285714286,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.133832199546485,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.193786848072563,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.502902494331066,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.689569160997732,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.874716553287982,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.010748299319728,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.550068027210884,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.643151927437641,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.735759637188208,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.828866213151928,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.909478458049886,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.078412698412698,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.157868480725623,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.299886621315192,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.780839002267573,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.318344671201814,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.480816326530613,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.976281179138322,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 12.697981859410431,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 14.648321995464853,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 14.998571428571429,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 15.372471655328798,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 23.682267573696144,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 23.754421768707484,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 23.929433106575964,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 23.965963718820863,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.163514739229026,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.25358276643991,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.724965986394558,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.748208616780044,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 25.266054421768708,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 25.6224716553288,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    },
+    {
+      "time": 26.03546485260771,
+      "source": "own",
+      "weapon": "xm1014",
+      "hard": false
+    }
+  ]
+}

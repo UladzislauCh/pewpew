@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "clip": "deagle.mp4",
+  "slug": "deagle-e3c6fac8",
+  "duration": 39.12562358276644,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T13:07:00.277Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 7.633151927437642,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.823650793650794,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 8.12451247165533,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 11.427573696145124,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.804875283446712,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 15.25390022675737,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.272108843537413,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 19.66750566893424,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 20.31136054421769,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 21.294648526077097,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 21.45249433106576,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 21.575056689342404,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.499501133786847,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 24.008344671201815,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.126213151927438,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.27097505668934,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.844580498866215,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 26.481814058956918,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 27.33124716553288,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 27.85126984126984,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 28.681632653061225,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 28.832993197278913,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 28.950385487528344,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 30.289455782312924,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 34.36562358276644,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    }
+  ]
+}

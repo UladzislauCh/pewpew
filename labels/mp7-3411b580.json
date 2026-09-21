@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "clip": "mp7.mp4",
+  "slug": "mp7-3411b580",
+  "duration": 9.58984126984127,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:32:48.297Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.697233560090703,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 2.7380725623582767,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 2.80281179138322,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 2.88578231292517,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 2.9853968253968253,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 3.732269431987406,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 3.8033752873997546,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 3.862734,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 3.965361047725833,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.026036,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.118986233101588,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.197971,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.26327,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.358267,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 4.978047799988468,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.066575963718821,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.147596371882086,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.232551090849153,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.296594,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.366592,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.466589,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.531587,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.621584,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    },
+    {
+      "time": 5.699185,
+      "source": "own",
+      "weapon": "mp7",
+      "hard": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "clip": "ssg08.mp4",
+  "slug": "ssg08-f176c0bd",
+  "duration": 9.496961451247165,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-31T09:22:54.780Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.003764172335601,
+      "source": "enemy",
+      "weapon": null,
+      "hard": true
+    },
+    {
+      "time": 1.101222,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 3.0267800453514737,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": true
+    },
+    {
+      "time": 4.534409,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.6991609977324265,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.779248,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.987369614512471,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.070744,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.3500907029478455,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 6.041877,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.923492063492064,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.006916099773242,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.124739229024943,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": true
+    }
+  ]
+}

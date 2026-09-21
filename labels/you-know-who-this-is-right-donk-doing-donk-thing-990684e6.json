@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "clip": "_You know who this is right__ Donk doing donk things that the BLAST Bounty 🔫.mp4",
+  "slug": "you-know-who-this-is-right-donk-doing-donk-thing-990684e6",
+  "duration": 10.565079365079365,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-09-01T15:12:46.215Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.643386,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 3.1617460317460315,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 6.705479,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 8.154766834269939,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    }
+  ]
+}

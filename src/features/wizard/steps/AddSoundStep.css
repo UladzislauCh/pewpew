@@ -1,0 +1,21 @@
+/* What's in right now — the same `.swap` line as on the check screen: a blue square
+   (a message, not an action) and the highlighted meme name. Spacing comes from
+   `.wizard__hint`, which it sits inside. */
+.add-sound__swap {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.add-sound__swap i {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 2px;
+  background: var(--info);
+}
+
+.add-sound__swap b {
+  color: var(--text-h);
+  font-weight: 600;
+}

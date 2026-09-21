@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "clip": "dual_berettas.mp4",
+  "slug": "dual-berettas-e7ba3dbd",
+  "duration": 50.50340136054422,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T12:00:15.645Z",
+  "notes": "Есть перезарядка",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.17507936507936508,
+      "source": "enemy",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 0.37816326530612243,
+      "source": "enemy",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 0.6368253968253968,
+      "source": "enemy",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 3.3360997732426303,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.632222222222222,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.863560090702948,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.553696145124716,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.804429040299574,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 10.908032211179961,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 11.043010667754098,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 11.165244825777679,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 11.307120181405896,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 11.40662501998787,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 12.611686513433524,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 12.753027186621239,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 12.851761359833297,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 12.976294326405645,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.102722231128404,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.213388593006334,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.34990309559222,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.468949,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.635916,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.775913,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 13.870907,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 14.000901,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 24.95770975056689,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.08628117913832,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.21922902494331,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.399160997732427,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.61299319727891,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.79687074829932,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 25.83751,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 25.997884260918752,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 26.104361827816938,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 26.206121222888942,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 26.325452839276206,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 27.88408163265306,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 28.151609977324263,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 29.670948886034743,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 30.013174603174605,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 30.164149659863945,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 30.3151684748669,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": true
+    },
+    {
+      "time": 43.078707482993195,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 43.287346938775514,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    },
+    {
+      "time": 43.56414965986394,
+      "source": "own",
+      "weapon": "dual_berettas",
+      "hard": false
+    }
+  ]
+}

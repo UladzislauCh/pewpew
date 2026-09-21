@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "clip": "3 KILL IN THE BLINK OF AN EYE! Magixx ON FIRE!.mp4",
+  "slug": "3-kill-in-the-blink-of-an-eye-magixx-on-fire-cfff63bd",
+  "duration": 13.003174603174603,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T09:33:02.685Z",
+  "notes": "На фоне достаточно громко слышно комментаторов. Счетчик есть для каждого выстрела. Но сам счетчик выглядит по-другому. Это не интерфейс игры, это интерфейс трансляции.",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.7794784580498866,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 2.0699319727891154,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 2.2789569160997734,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 3.159546485260771,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.266598639455782,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 3.3642857142857143,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 3.56031746031746,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 3.7347392290249433,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 3.9746938775510205,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 4.588072562358277,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 4.967619047619047,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 5.278390022675737,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    }
+  ]
+}

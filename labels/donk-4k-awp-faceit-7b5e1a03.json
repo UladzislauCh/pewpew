@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "clip": "Donk 4k AWP Faceit🔥.mp4",
+  "slug": "donk-4k-awp-faceit-7b5e1a03",
+  "duration": 18.99392290249433,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-09-01T10:25:19.894Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 6.975017,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 8.762191,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 10.508399725199489,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 12.736391,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    }
+  ]
+}

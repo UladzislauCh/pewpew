@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "clip": "p2000.mp4",
+  "slug": "p2000-e0a8bc80",
+  "duration": 33.94757369614513,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T16:58:48.746Z",
+  "notes": "В видео есть войсчат",
+  "complete": true,
+  "shots": [
+    {
+      "time": 6.158049886621315,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 6.390249433106576,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 6.816666666666666,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.945351473922902,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 8.038934240362812,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 8.364920634920635,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 8.95609977324263,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 10.326009070294784,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 10.645396825396825,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 10.952947845804989,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 11.24326530612245,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 11.59061224489796,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 14.285056689342404,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 16.4453514739229,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 16.641950113378684,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 16.92049886621315,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 18.88605442176871,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 19.12761904761905,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": true
+    },
+    {
+      "time": 19.74700680272109,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 20.11326530612245,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 20.49235827664399,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 21.089523809523808,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 21.78514739229025,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    },
+    {
+      "time": 26.22156462585034,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 26.831133786848074,
+      "source": "own",
+      "weapon": "p2000",
+      "hard": false
+    }
+  ]
+}

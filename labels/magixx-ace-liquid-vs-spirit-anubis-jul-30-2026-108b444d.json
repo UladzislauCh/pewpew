@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "clip": "magixx - ACE _ Liquid vs Spirit _ Anubis _ Jul 30, 2026.mp4",
+  "slug": "magixx-ace-liquid-vs-spirit-anubis-jul-30-2026-108b444d",
+  "duration": 9.822040816326531,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:21:13.340Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.654809,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.7050113378684806,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.7724716553287982,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.854240362811791,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.918548752834467,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.986848072562358,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.062562358276644,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.144875283446712,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.232358276643991,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.285555555555556,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.33453514739229,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.423356009070295,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.503696145124716,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 6.744920634920635,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 6.801609977324263,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 6.859024943310658,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 6.9242630385487525,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.002225,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.057868480725624,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.135089469094865,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.219024943310657,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.624112,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.688140138932254,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.743401360544218,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.813696145124717,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.873718820861678,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 7.97168509464352,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 8.035365663860118,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 8.111197333925595,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    }
+  ]
+}

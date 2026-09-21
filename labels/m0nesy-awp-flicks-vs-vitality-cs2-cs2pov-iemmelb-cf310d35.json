@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "clip": "m0nesy AWP flicks vs Vitality #cs2 #cs2pov #iemmelbourne2025 #m0nesy.mp4",
+  "slug": "m0nesy-awp-flicks-vs-vitality-cs2-cs2pov-iemmelb-cf310d35",
+  "duration": 10.936598639455783,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-09-01T10:49:46.054Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.735968,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 4.493903,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 8.233799,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    }
+  ]
+}

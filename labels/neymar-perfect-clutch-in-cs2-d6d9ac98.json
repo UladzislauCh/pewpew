@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "clip": "Neymar perfect clutch in CS2_.mp4",
+  "slug": "neymar-perfect-clutch-in-cs2-d6d9ac98",
+  "duration": 28.955283446712016,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-28T12:28:13.227Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 9.632585034013605,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.895714285714286,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.95689342403628,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.04641723356009,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.16344671201814,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.84514739229025,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 22.251201814058955,
+      "source": "enemy",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 22.449727891156463,
+      "source": "enemy",
+      "weapon": "m4a1s",
+      "hard": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+engineStrict: true
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - protobufjs

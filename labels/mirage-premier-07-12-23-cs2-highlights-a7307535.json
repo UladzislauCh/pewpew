@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "clip": "__ mirage _ premier _ 07.12.23 #cs2 #highlights.mp4",
+  "slug": "mirage-premier-07-12-23-cs2-highlights-a7307535",
+  "duration": 15.023310657596372,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T09:31:37.136Z",
+  "notes": "на фоне играет музыка. На каждом выстреле виден счетчик патронов. Но в клипе он виден не всегда. Иногда игрок берет в руки нож\n",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.6227437641723356,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.6736281179138321,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.8421315192743765,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.7621315192743765,
+      "source": "own",
+      "weapon": "awp",
+      "hard": true
+    },
+    {
+      "time": 8.277460317460317,
+      "source": "own",
+      "weapon": "awp",
+      "hard": true
+    },
+    {
+      "time": 12.117755102040816,
+      "source": "own",
+      "weapon": "awp",
+      "hard": true
+    }
+  ]
+}

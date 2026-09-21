@@ -1,0 +1,182 @@
+/*
+ * Checked against the mockup (docs/design/mockups.html, “07. How it works”).
+ *
+ * Steps used to be separate raised cards (background, border, shadow, big uppercase
+ * heading) — in the mockup it's a flat list: a thin divider line above every step but
+ * the first, a small square number, modest text.
+ * The mockup has no image at all — the project adds one on purpose, so its style
+ * (a border around the screenshot) is our own, not the mockup's.
+ *
+ * No flex+gap at the top level: each block has its own margin, as in the mockup
+ * (`.title{margin:0 0 6px}`, `.sub{margin:0 0 18px}` etc.) — the same gap set twice
+ * at different levels had already broken the wizard twice in that session.
+ */
+.how-page {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 24px 16px max(48px, env(safe-area-inset-bottom));
+}
+
+.how-page__title {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: clamp(22px, 5.5vw, 28px);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--text-h);
+}
+
+.how-page__lead {
+  margin: 0 0 18px;
+  max-width: 62ch;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.how-page__steps {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.how-page__step {
+  display: flex;
+  gap: 12px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.how-page__step:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.how-page__step-num {
+  flex: 0 0 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-sm);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.how-page__step-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.how-page__step-title {
+  display: block;
+  margin: 0;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.how-page__text {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.how-page__outro {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.how-page__figure {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+
+.how-page__shot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Step limits read the same as in the upload zone (`Dropzone.css` →
+   `.dropzone__limits`): a settled mockup item (“must read the same in both
+   places”). The class isn't reused verbatim — there it has `justify-content: center`
+   for the centred drop zone, while this page is left-aligned.
+   No bottom margin of its own: the step column sets the distance to the neighbour. */
+.how-page__limits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.how-page__cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 16px;
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent-fg);
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--accent);
+  transition:
+    background var(--dur) var(--ease-snap),
+    transform var(--dur) var(--ease-snap);
+}
+
+.how-page__cta:hover {
+  background: var(--accent-strong);
+}
+
+.how-page__cta:active {
+  transform: translateY(1px) scale(0.985);
+}
+
+@media (min-width: 640px) {
+  .how-page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .how-page__cta {
+    transition: none;
+  }
+
+  .how-page__cta:active {
+    transform: none;
+  }
+}

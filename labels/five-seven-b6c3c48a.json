@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "clip": "five_seven.mp4",
+  "slug": "five-seven-b6c3c48a",
+  "duration": 15.882448979591837,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:12:45.972Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 4.002743764172336,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.301315192743764,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.383968253968254,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.467256235827664,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.585804988662131,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.687596371882086,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.783197278911564,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.881383219954649,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.0017006802721085,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.106326530612245,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.171201814058957,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.287392290249433,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.703718820861678,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.824081632653061,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.892312925170068,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.009410430839003,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.66667,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 8.83253,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 8.956970151314168,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 9.070613143053395,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 9.243242630385488,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 9.939501133786848,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 10.188072562358277,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 10.405827664399093,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 10.700589569160998,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 10.937301587301587,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.04702947845805,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.211768707482992,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.339637188208616,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.481836734693877,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.644920634920634,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 11.816031746031745,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 12.638131,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 13.163131,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 13.69812,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    }
+  ]
+}

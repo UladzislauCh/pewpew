@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weapon region labeling</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; background: #14161a; color: #d8dde5; font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+      header { background: #181b21; border-bottom: 1px solid #262b34; padding: 10px 16px; }
+      h1 { font-size: 14px; font-weight: 600; margin: 0 0 4px; color: #9aa4b2; }
+      #progress { color: #7f8b9a; }
+      main { display: grid; grid-template-columns: 300px 1fr; align-items: start; }
+      #clips { border-right: 1px solid #262b34; height: calc(100vh - 62px); overflow-y: auto; padding: 8px; display: flex; flex-direction: column; gap: 2px; }
+      .clip { text-align: left; width: 100%; background: none; border: 1px solid transparent; color: #d8dde5; font: inherit; padding: 5px 8px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+      .clip:hover { background: #1e222a; }
+      .clip.active { background: #232833; border-color: #3a4252; }
+      .clip .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .clip .state { color: #6f9f6f; font-size: 11px; flex: 0 0 auto; }
+      .clip.sparse .name::before { content: '◆ '; color: #d98a3a; }
+      .clip.done .name { color: #8fbf8f; }
+      #panel { padding: 12px 16px; min-width: 0; }
+      #status { color: #7f8b9a; }
+      #clipInfo { color: #6d7887; margin-bottom: 8px; }
+      #view { max-width: 100%; max-height: 62vh; border: 1px solid #2b3038; border-radius: 4px; cursor: crosshair; display: block; }
+      .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 8px 0; }
+      button { font: inherit; background: #232833; color: #d8dde5; border: 1px solid #333a47; border-radius: 4px; padding: 4px 10px; cursor: pointer; }
+      button:hover:not(:disabled) { background: #2b3140; }
+      button:disabled { opacity: 0.35; cursor: default; }
+      .frameBtn.active { background: #2f4562; border-color: #4a6a95; }
+      #boxInfo { color: #8fbf8f; }
+      label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+      textarea { width: 100%; box-sizing: border-box; min-height: 40px; resize: vertical; background: #12151a; color: #d8dde5;
+        border: 1px solid #2b3038; border-radius: 4px; padding: 6px 8px; font: inherit; }
+      .hint { color: #6d7887; }
+      .legend { color: #7f8b9a; }
+      .swatch { display: inline-block; width: 10px; height: 10px; vertical-align: -1px; margin-right: 4px; }
+      .swatch.auto { background: rgba(255, 170, 60, 0.55); }
+      .swatch.mine { background: rgba(90, 230, 130, 0.95); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Weapon region labeling — draw a box around the viewmodel</h1>
+      <div id="progress"></div>
+    </header>
+    <main>
+      <div id="clips"></div>
+      <div id="panel">
+        <div id="status"></div>
+        <div id="clipInfo"></div>
+        <canvas id="view"></canvas>
+        <div class="row" id="frameStrip"></div>
+        <div class="row">
+          <span id="boxInfo"></span>
+          <button id="clear">remove box</button>
+          <label><input type="checkbox" id="absent" /> no weapon in frame (cropped, zoomed, holstered)</label>
+        </div>
+        <div class="row legend">
+          <span><i class="swatch auto"></i>what the heuristic found</span>
+          <span><i class="swatch mine"></i>your box</span>
+          <span class="hint">drag a corner or edge to adjust; drag from inside to move the whole box. Frames: 1–6, clips: ← →</span>
+        </div>
+        <textarea id="note" placeholder="Note: weapon changes during the clip, player is scoped in, webcam gets in the way…"></textarea>
+        <div class="row">
+          <button id="prev">← previous</button>
+          <button id="next">next →</button>
+          <button id="download">download labels</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./weaponRegion.ts"></script>
+  </body>
+</html>

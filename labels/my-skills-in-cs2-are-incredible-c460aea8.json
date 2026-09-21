@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "clip": "My skills in CS2... are incredible.mp4",
+  "slug": "my-skills-in-cs2-are-incredible-c460aea8",
+  "duration": 15.000090702947846,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-28T15:47:38.500Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 5.147596371882086,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 5.551587301587301,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 5.971904761904762,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 6.239251700680272,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 6.458730158730159,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 6.72530612244898,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 6.981768707482993,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 7.166666666666667,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 7.3418820861678,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 7.515238095238095,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 7.675283446712018,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 7.929501133786848,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 9.597006802721088,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 9.817913832199546,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 10.0843537414966,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 10.302154195011338,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 10.56936507936508,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 10.811179138321995,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 11.162086167800453,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 12.11077097505669,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.394421768707483,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.591700680272108,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.789070294784581,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.98140589569161,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.135736961451247,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.27639455782313,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.450544217687074,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.60156462585034,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.752448979591836,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.903514739229024,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    }
+  ]
+}

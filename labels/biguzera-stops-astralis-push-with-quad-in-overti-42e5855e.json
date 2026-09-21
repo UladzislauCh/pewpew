@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "clip": "biguzera STOPS Astralis PUSH with QUAD in overtime #blast #bounty #cs #cs2 #csgo.mp4",
+  "slug": "biguzera-stops-astralis-push-with-quad-in-overti-42e5855e",
+  "duration": 29.90730158730159,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T11:11:45.322Z",
+  "notes": "В этом клипе менялось оружие. Счетчик от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 9.4442458547951,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 9.561300918122535,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 9.652948965032456,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 9.761587301587301,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 9.796796615452479,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 9.922546318042539,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 10.025049223750825,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 10.09033721621276,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 10.192637295878662,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 10.545736961451247,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.644761904761905,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.752789115646259,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.829410430839003,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.937891156462586,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.071224489795918,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.126145124716553,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.23952380952381,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.350272108843537,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.428367346938776,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.579659863945578,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.655691609977325,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.755442176870748,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.869251700680271,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.96251700680272,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.598158522382427,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 16.630068027210886,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.67249433106576,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.727760798630236,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 17.280566893424037,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.38002267573696,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.465238095238096,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.498707482993197,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.571768707482992,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 17.729493643601295,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 17.79156462585034,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 17.884594967250678,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 17.996485260770974,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 18.04060294759035,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 20.059075611755897,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 20.147237902266188,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 20.252360498873898,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 20.34548752834467,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 20.46051345423174,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 21.400339149902038,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 21.48095954099827,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 21.801798764106337,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 21.940375016390902,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 22.932603724164196,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 23.019606618354587,
+      "source": "own",
+      "weapon": "m4a4",
+      "hard": true
+    },
+    {
+      "time": 24.124579421489074,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 24.338843537414967,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 24.595079365079364,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    }
+  ]
+}

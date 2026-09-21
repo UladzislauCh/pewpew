@@ -1,0 +1,415 @@
+{
+  "updatedAt": "2026-09-07T12:31:11.063Z",
+  "note": "Продуктовая схема: кандидаты сетью ShotNet по звуку, затем фильтр по движению при пороге 0.5. Цель — свои выстрелы, допуск ±50 мс, попадания по чужим считаются лишними метками. ЧИСЛА ЗАВЫШЕНЫ примерно на 4 пункта F1: модель движения обучена на всех клипах без отложенной выборки и проверяется здесь на них же. Честная проверка фолдами по клипам — npx tsx eval/trainMotionModel.ts. Годится для слежения за регрессиями, не годится как описание качества. Обновить: npm run eval -- --update-baseline",
+  "aggregate": {
+    "f1": 0.5745399924896734,
+    "precision": 0.46167773083886543,
+    "recall": 0.7604373757455268,
+    "truePositives": 765,
+    "falsePositives": 892,
+    "falseNegatives": 241,
+    "hardRecall": 0.6637168141592921
+  },
+  "clips": {
+    "3-kill-in-the-blink-of-an-eye-magixx-on-fire-cfff63bd": {
+      "f1": 0.28571428571428564,
+      "precision": 0.3,
+      "recall": 0.2727272727272727,
+      "truePositives": 3,
+      "falsePositives": 7,
+      "falseNegatives": 8
+    },
+    "ak47-dbf13655": {
+      "f1": 0.6530612244897959,
+      "precision": 0.5517241379310345,
+      "recall": 0.8,
+      "truePositives": 16,
+      "falsePositives": 13,
+      "falseNegatives": 4
+    },
+    "aug-8ce4830d": {
+      "f1": 0.6779661016949152,
+      "precision": 0.6060606060606061,
+      "recall": 0.7692307692307693,
+      "truePositives": 20,
+      "falsePositives": 13,
+      "falseNegatives": 6
+    },
+    "awp-a61a768a": {
+      "f1": 0.2,
+      "precision": 0.125,
+      "recall": 0.5,
+      "truePositives": 1,
+      "falsePositives": 7,
+      "falseNegatives": 1
+    },
+    "biguzera-backstabs-astralis-in-1v2-force-buy-clu-182b790c": {
+      "f1": 0.6111111111111112,
+      "precision": 0.5116279069767442,
+      "recall": 0.7586206896551724,
+      "truePositives": 22,
+      "falsePositives": 21,
+      "falseNegatives": 7
+    },
+    "biguzera-stops-astralis-push-with-quad-in-overti-42e5855e": {
+      "f1": 0.5581395348837209,
+      "precision": 0.43636363636363634,
+      "recall": 0.7741935483870968,
+      "truePositives": 24,
+      "falsePositives": 31,
+      "falseNegatives": 7
+    },
+    "bizon-ddbb135a": {
+      "f1": 0.8108108108108109,
+      "precision": 0.759493670886076,
+      "recall": 0.8695652173913043,
+      "truePositives": 60,
+      "falsePositives": 19,
+      "falseNegatives": 9
+    },
+    "cs2-m0nesy-donk-highlights-a03a5eab": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 4
+    },
+    "deagle-e3c6fac8": {
+      "f1": 0.18749999999999997,
+      "precision": 0.15789473684210525,
+      "recall": 0.23076923076923078,
+      "truePositives": 3,
+      "falsePositives": 16,
+      "falseNegatives": 10
+    },
+    "donk-4k-awp-faceit-7b5e1a03": {
+      "f1": 0.06593406593406594,
+      "precision": 0.034482758620689655,
+      "recall": 0.75,
+      "truePositives": 3,
+      "falsePositives": 84,
+      "falseNegatives": 1
+    },
+    "donk-5100-elo-aim-429d5b23": {
+      "f1": 0.5777777777777778,
+      "precision": 0.41935483870967744,
+      "recall": 0.9285714285714286,
+      "truePositives": 13,
+      "falsePositives": 18,
+      "falseNegatives": 1
+    },
+    "donk-insane-1v5-ace-clutch-vs-heroic-perfect-wor-62e73241": {
+      "f1": 0.5625,
+      "precision": 0.43902439024390244,
+      "recall": 0.782608695652174,
+      "truePositives": 18,
+      "falsePositives": 23,
+      "falseNegatives": 5
+    },
+    "dual-berettas-e7ba3dbd": {
+      "f1": 0.617283950617284,
+      "precision": 0.4716981132075472,
+      "recall": 0.8928571428571429,
+      "truePositives": 25,
+      "falsePositives": 28,
+      "falseNegatives": 3
+    },
+    "five-seven-b6c3c48a": {
+      "f1": 0.3888888888888889,
+      "precision": 0.2641509433962264,
+      "recall": 0.7368421052631579,
+      "truePositives": 14,
+      "falsePositives": 39,
+      "falseNegatives": 5
+    },
+    "g3sg1-c6efc1c9": {
+      "f1": 0.1739130434782609,
+      "precision": 0.13333333333333333,
+      "recall": 0.25,
+      "truePositives": 4,
+      "falsePositives": 26,
+      "falseNegatives": 12
+    },
+    "galil-89d3cd53": {
+      "f1": 0.5531914893617021,
+      "precision": 0.4482758620689655,
+      "recall": 0.7222222222222222,
+      "truePositives": 13,
+      "falsePositives": 16,
+      "falseNegatives": 5
+    },
+    "glock-8e8eac4c": {
+      "f1": 0.5217391304347825,
+      "precision": 0.375,
+      "recall": 0.8571428571428571,
+      "truePositives": 6,
+      "falsePositives": 10,
+      "falseNegatives": 1
+    },
+    "just-look-at-those-s1mple-flicks-85daccf1": {
+      "f1": 0.125,
+      "precision": 0.07142857142857142,
+      "recall": 0.5,
+      "truePositives": 1,
+      "falsePositives": 13,
+      "falseNegatives": 1
+    },
+    "kscerato-insane-ace-vs-vitality-shanghaimajor202-29c16b29": {
+      "f1": 0.6944444444444445,
+      "precision": 0.5681818181818182,
+      "recall": 0.8928571428571429,
+      "truePositives": 25,
+      "falsePositives": 19,
+      "falseNegatives": 3
+    },
+    "kyousuke-1v5-clutch-81c58ac1": {
+      "f1": 0.5793103448275863,
+      "precision": 0.4117647058823529,
+      "recall": 0.9767441860465116,
+      "truePositives": 42,
+      "falsePositives": 60,
+      "falseNegatives": 1
+    },
+    "m0nesy-awp-flicks-vs-vitality-cs2-cs2pov-iemmelb-cf310d35": {
+      "f1": 0.1111111111111111,
+      "precision": 0.06060606060606061,
+      "recall": 0.6666666666666666,
+      "truePositives": 2,
+      "falsePositives": 31,
+      "falseNegatives": 1
+    },
+    "m249-01da2208": {
+      "f1": 0.9312169312169313,
+      "precision": 0.9166666666666666,
+      "recall": 0.946236559139785,
+      "truePositives": 88,
+      "falsePositives": 8,
+      "falseNegatives": 5
+    },
+    "m4a1s-06df7ea2": {
+      "f1": 0.7450980392156863,
+      "precision": 0.6129032258064516,
+      "recall": 0.95,
+      "truePositives": 38,
+      "falsePositives": 24,
+      "falseNegatives": 2
+    },
+    "m4a4-21a98a4c": {
+      "f1": 0.7346938775510203,
+      "precision": 0.5901639344262295,
+      "recall": 0.972972972972973,
+      "truePositives": 36,
+      "falsePositives": 25,
+      "falseNegatives": 1
+    },
+    "mac10-8c6af80c": {
+      "f1": 0.746268656716418,
+      "precision": 0.6756756756756757,
+      "recall": 0.8333333333333334,
+      "truePositives": 25,
+      "falsePositives": 12,
+      "falseNegatives": 5
+    },
+    "mag7-9be72a14": {
+      "f1": 0.13333333333333333,
+      "precision": 0.1,
+      "recall": 0.2,
+      "truePositives": 1,
+      "falsePositives": 9,
+      "falseNegatives": 4
+    },
+    "magixx-ace-liquid-vs-spirit-anubis-jul-30-2026-108b444d": {
+      "f1": 0.8666666666666666,
+      "precision": 0.8387096774193549,
+      "recall": 0.896551724137931,
+      "truePositives": 26,
+      "falsePositives": 5,
+      "falseNegatives": 3
+    },
+    "mirage-premier-07-12-23-cs2-highlights-a7307535": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 3
+    },
+    "mp5sd-ce3450f9": {
+      "f1": 0.7462686567164178,
+      "precision": 0.7142857142857143,
+      "recall": 0.78125,
+      "truePositives": 25,
+      "falsePositives": 10,
+      "falseNegatives": 7
+    },
+    "mp7-3411b580": {
+      "f1": 0.7457627118644068,
+      "precision": 0.6285714285714286,
+      "recall": 0.9166666666666666,
+      "truePositives": 22,
+      "falsePositives": 13,
+      "falseNegatives": 2
+    },
+    "mp9-454f675a": {
+      "f1": 0.65,
+      "precision": 0.5531914893617021,
+      "recall": 0.7878787878787878,
+      "truePositives": 26,
+      "falsePositives": 21,
+      "falseNegatives": 7
+    },
+    "my-skills-in-cs2-are-incredible-c460aea8": {
+      "f1": 0.4324324324324324,
+      "precision": 0.2909090909090909,
+      "recall": 0.8421052631578947,
+      "truePositives": 16,
+      "falsePositives": 39,
+      "falseNegatives": 3
+    },
+    "neityu-wins-crucial-ot-round-with-1v2-clucth-bla-999f3dbb": {
+      "f1": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1,
+      "truePositives": 13,
+      "falsePositives": 13,
+      "falseNegatives": 0
+    },
+    "neymar-perfect-clutch-in-cs2-d6d9ac98": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 11,
+      "falseNegatives": 1
+    },
+    "nova-3b93ac4e": {
+      "f1": 0.2,
+      "precision": 0.25,
+      "recall": 0.16666666666666666,
+      "truePositives": 1,
+      "falsePositives": 3,
+      "falseNegatives": 5
+    },
+    "p2000-e0a8bc80": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 3,
+      "falseNegatives": 23
+    },
+    "p250-c292589f": {
+      "f1": 0.42857142857142855,
+      "precision": 0.3333333333333333,
+      "recall": 0.6,
+      "truePositives": 6,
+      "falsePositives": 12,
+      "falseNegatives": 4
+    },
+    "r8-revolver-4b824ff6": {
+      "f1": 0.25,
+      "precision": 0.16666666666666666,
+      "recall": 0.5,
+      "truePositives": 1,
+      "falsePositives": 5,
+      "falseNegatives": 1
+    },
+    "sawedoff-4d0b1bb9": {
+      "f1": 0.11764705882352942,
+      "precision": 0.09090909090909091,
+      "recall": 0.16666666666666666,
+      "truePositives": 1,
+      "falsePositives": 10,
+      "falseNegatives": 5
+    },
+    "scar20-beca1553": {
+      "f1": 0.3870967741935484,
+      "precision": 0.3333333333333333,
+      "recall": 0.46153846153846156,
+      "truePositives": 6,
+      "falsePositives": 12,
+      "falseNegatives": 7
+    },
+    "ssg08-f176c0bd": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 4
+    },
+    "tec9-721d0a63": {
+      "f1": 0.5762711864406781,
+      "precision": 0.4358974358974359,
+      "recall": 0.85,
+      "truePositives": 17,
+      "falsePositives": 22,
+      "falseNegatives": 3
+    },
+    "the-last-kill-was-insane-69fbf884": {
+      "f1": 0,
+      "precision": 0,
+      "recall": 0,
+      "truePositives": 0,
+      "falsePositives": 1,
+      "falseNegatives": 7
+    },
+    "this-isn-t-legal-m0nesy-s-filthy-double-with-a-w-f3a83c40": {
+      "f1": 0.6666666666666666,
+      "precision": 1,
+      "recall": 0.5,
+      "truePositives": 1,
+      "falsePositives": 0,
+      "falseNegatives": 1
+    },
+    "ump45-53cf447f": {
+      "f1": 0.7628865979381443,
+      "precision": 0.6607142857142857,
+      "recall": 0.9024390243902439,
+      "truePositives": 37,
+      "falsePositives": 19,
+      "falseNegatives": 4
+    },
+    "usp-0-fdf2debd": {
+      "f1": 0.326530612244898,
+      "precision": 0.23529411764705882,
+      "recall": 0.5333333333333333,
+      "truePositives": 8,
+      "falsePositives": 26,
+      "falseNegatives": 7
+    },
+    "videoplayback-f1664108": {
+      "f1": 0.7592592592592592,
+      "precision": 0.8723404255319149,
+      "recall": 0.6721311475409836,
+      "truePositives": 41,
+      "falsePositives": 6,
+      "falseNegatives": 20
+    },
+    "xm1014-3b76d5bf": {
+      "f1": 0.09523809523809525,
+      "precision": 0.09090909090909091,
+      "recall": 0.1,
+      "truePositives": 1,
+      "falsePositives": 10,
+      "falseNegatives": 9
+    },
+    "you-know-who-this-is-right-donk-doing-donk-thing-990684e6": {
+      "f1": 0.16,
+      "precision": 0.08695652173913043,
+      "recall": 1,
+      "truePositives": 4,
+      "falsePositives": 42,
+      "falseNegatives": 0
+    },
+    "zywoo-destroys-mouz-with-awp-cs2-iem-zywoo-df608467": {
+      "f1": 0.33333333333333337,
+      "precision": 0.2127659574468085,
+      "recall": 0.7692307692307693,
+      "truePositives": 10,
+      "falsePositives": 37,
+      "falseNegatives": 3
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=IBM+Plex+Sans:wght@500;600&family=IBM+Plex+Mono:wght@500;600&display=block"><link rel="stylesheet" href="_base.css">
+<style>
+  .canvas { background:
+    radial-gradient(ellipse 55% 60% at 50% 50%, rgba(249,115,22,.16), transparent 60%),
+    linear-gradient(180deg, #0d1016 0%, var(--bg) 45%, #07090c 100%); }
+  .grid { position:absolute; inset:0; opacity:.5;
+    background-image: linear-gradient(rgba(255,255,255,.035) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,.035) 2px, transparent 2px);
+    background-size: 96px 96px; mask-image: radial-gradient(ellipse 70% 65% at 50% 50%, #000 25%, transparent 80%); }
+  .safe { gap: 64px; padding-left: 40px; }
+  .chicken { width: 300px; height: 352px; }
+  .wordmark { font-size: 168px; }
+  .tagline { font-size: 50px; margin-top: 26px; color: var(--text-h); }
+  .chip { display:inline-block; margin-top: 30px; font-size: 26px; color: var(--muted); padding: 12px 18px; border: 2px solid var(--border-strong); border-radius: 6px; }
+  .chip i { font-style: normal; color: var(--accent); }
+  /* Killfeed is decoration outside the safe zone: on the right on desktop, and higher up on TV as well. */
+  .feed { position:absolute; right: 36px; top: 560px; display:flex; flex-direction:column; gap: 16px; align-items:flex-end; }
+  .feed.top { top: 250px; right: 140px; opacity: .55; }
+  .row { display:flex; align-items:center; gap: 16px; padding: 12px 18px; background: rgba(10,12,16,.72); border: 2px solid rgba(249,115,22,.55); border-radius: 4px; font: 600 26px/1 var(--mono); color: var(--text-h); }
+  .row .meme { color: var(--accent); letter-spacing: .06em; }
+  .row .gun { width: 64px; height: 22px; background: var(--muted); clip-path: polygon(0 35%, 62% 35%, 62% 0, 78% 0, 78% 35%, 100% 35%, 100% 62%, 40% 62%, 30% 100%, 16% 100%, 22% 62%, 0 62%); }
+  .row .hs { width: 26px; height: 26px; border: 3px solid var(--muted); border-radius: 50%; }
+</style>
+<div class="canvas">
+  <div class="grid"></div>
+  <div class="feed top">
+    <div class="row">you <span class="gun"></span> <span class="meme">QUACK</span> <span class="hs"></span> rusher</div>
+    <div class="row">you <span class="gun"></span> <span class="meme">BOING</span> t_bot</div>
+  </div>
+  <div class="feed">
+    <div class="row">you <span class="gun"></span> <span class="meme">BONK</span> <span class="hs"></span> enemy</div>
+    <div class="row">you <span class="gun"></span> <span class="meme">BRUH</span> ct_awper</div>
+    <div class="row">you <span class="gun"></span> <span class="meme">MEOW</span> lurker</div>
+  </div>
+  <div class="safe">
+    <div class="chicken"><img src="../../../public/pewpew-logo.png" alt=""></div>
+    <div>
+      <h1 class="wordmark">pewpew<b>.baby</b></h1>
+      <p class="tagline">Meme gunshots for your CS2 highlights</p>
+      <span class="chip">swap every shot <i>▸</i> right in your browser</span>
+    </div>
+  </div>
+</div><script>if(location.search.includes("guides")){const c=document.querySelector(".canvas");c.classList.add("guides");c.insertAdjacentHTML("beforeend",`<div class="g-desktop"></div><div class="g-safe"></div><div class="g-label" style="left:12px;top:462px;color:#5b9bd5">desktop 2560×423</div><div class="g-label" style="left:517px;top:942px;color:#a3e635">safe · all devices 1546×423</div>`)}</script>

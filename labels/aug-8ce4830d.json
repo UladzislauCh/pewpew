@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "clip": "aug.mp4",
+  "slug": "aug-8ce4830d",
+  "duration": 5.479909297052155,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T10:49:45.494Z",
+  "notes": "Счетчик патронов есть. Но он не от игры, а от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.6034733692182105,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 0.683213511759697,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 0.7640513432323709,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 0.889066640777993,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 0.9707425603836892,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.0792637378293284,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.173456585892847,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.3006396349863671,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.404550871115127,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.5014534170190812,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.5978821359782593,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.6684626079604599,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.7692149977907135,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.87105324103608,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 1.9729260341628363,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.1023696326387236,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.168183,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.631368,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.738129539899021,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.835137110856643,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 2.93559943015676,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 3.033613737225493,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 3.133162,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 3.2311108898058087,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 3.308151,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    },
+    {
+      "time": 3.4254884109286907,
+      "source": "own",
+      "weapon": "aug",
+      "hard": false
+    }
+  ]
+}

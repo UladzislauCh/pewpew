@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "clip": "ZywOo Destroys MOUZ with AWP! #cs2  #iem #zywoo.mp4",
+  "slug": "zywoo-destroys-mouz-with-awp-cs2-iem-zywoo-df608467",
+  "duration": 16.137868480725622,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-09-01T10:51:20.199Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.5479900909063877,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 5.537418,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 10.954597,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 12.411099,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 12.507126,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 12.633293448413196,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 12.811635645051355,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 12.9385489291706,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.146235,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.444922,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.564921,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.744917,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.864913,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    }
+  ]
+}

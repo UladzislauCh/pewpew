@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "title": "PewPew — meme gunshots for CS2",
+    "description": "Replace gunshot sounds in CS2 highlights with memes"
+  },
+  "header": {
+    "homeAria": "pewpew — home",
+    "navAria": "Main navigation",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "beta": "beta",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "language": "Language",
+    "langEn": "EN",
+    "langRu": "RU",
+    "feedback": "Feedback"
+  },
+  "footer": {
+    "navAria": "Site sections",
+    "service": "Service",
+    "upload": "Upload a highlight",
+    "rights": "© {{year}} pewpew",
+    "feedback": "Feedback",
+    "reportBug": "Report a bug",
+    "suggestSound": "Suggest a sound",
+    "writeUs": "Write to us",
+    "feedbackAria": "Feedback"
+  },
+  "how": {
+    "title": "How it works",
+    "lead": "A few steps — and your highlight with meme audio is ready.",
+    "cta": "Upload a highlight",
+    "upTo": "up to {{value}}",
+    "voiceUpTo": "voice up to {{value}}",
+    "steps": {
+      "upload": {
+        "title": "Drop a highlight",
+        "body": "Drop the clip into the form — we'll take it from there",
+        "alt": "Highlight upload dropzone"
+      },
+      "check": {
+        "title": "Hear what came out",
+        "body": "The shots are already swapped for a short meme. Marker on target — you hear a clean meme; marker off — the meme and the real gunshot hit side by side. All good, hit “Yes, next”; off, hit “No, let me fix” and nudge the markers.",
+        "alt": "Shot track, play button and the “On target?” question"
+      },
+      "fix": {
+        "title": "Fix the markers if they miss",
+        "body": "Walk them with “Prev” and “Next”: the track zooms in on each marker and plays it apart from its neighbours. Arrows ← → nudge the selected one, a double-click on a marker removes it, and a double-click on the wave adds a new one.",
+        "alt": "Zoomed track, marker navigation buttons and the hint"
+      },
+      "sound": {
+        "title": "Change the meme",
+        "body": "A short arsenal sound is in by default. Swap it for your own: record a voice clip, grab another meme, or drop a file.",
+        "alt": "Meme arsenal: tabs and sound cards"
+      },
+      "loot": {
+        "title": "Take the loot",
+        "body": "Listen to the whole clip and nudge the meme length if the gunshot tail creeps in.",
+        "alt": "Summary, preview and the meme-length slider",
+        "outro": "Download the finished clip!"
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "lead": "Short answers to common questions.",
+    "items": {
+      "shotDetection": {
+        "question": "The system detects shots incorrectly",
+        "answer": "The service is in beta, and the automatic markers do miss sometimes. But you can hear it: on the “Check” step the shots are already swapped for a meme — marker on target, you hear a clean meme; marker off, the meme and the real gunshot hit side by side. Hit “No, let me fix”: you get button-by-button marker navigation, arrows nudge the selected one, and a double-click removes a stray marker or adds a missing one. The more people use it, the faster we learn."
+      },
+      "linkOnly": {
+        "question": "I only have a video link, not a file",
+        "answerBefore": "Sorry — we can't work with video links yet. You can download the video via",
+        "answerAfter": "."
+      },
+      "videoPrivacy": {
+        "question": "What happens with my video",
+        "answer": "Everything is processed right in your browser — the file is never uploaded to a server or stored anywhere. Close the tab and no trace of it is left."
+      },
+      "customSound": {
+        "question": "Can I use my own sound",
+        "answer": "Yes. A short arsenal meme is dropped in right away so there is something to listen to on the check step, and you can change it on the “Meme” step: record a voice clip in the browser (up to 5 seconds), grab another arsenal sound, or upload your own file — mp3, wav, ogg, m4a, up to 5 MB."
+      }
+    },
+    "contactLead": "Didn't find an answer?",
+    "contactCta": "Write to us"
+  },
+  "errors": {
+    "home": "Back to base",
+    "notFound": {
+      "title": "Looks like you got kicked",
+      "lead": "There is no such page. Head back to base and start over.",
+      "report": "Report a broken link"
+    },
+    "server": {
+      "title": "Something went wrong",
+      "lead": "We hit an unexpected error. Try again, or return to base and start fresh.",
+      "retry": "Try again",
+      "reportLead": "Keeps happening?",
+      "reportLink": "Tell us"
+    }
+  },
+  "wizard": {
+    "busy": "planting…",
+    "backDefault": "Back to base",
+    "upload": {
+      "title": "Drop a highlight — we'll tap the shots",
+      "hint": "We swap gunshot audio for memes"
+    },
+    "checkShots": {
+      "title": "Hear what came out",
+      "back": "Another clip",
+      "swap": "<b>{{name}}</b> is in for now — you'll pick your own meme next step",
+      "skip": "Next shot",
+      "ask": "On target?",
+      "askHint": "the sound should land on the shot, not next to it",
+      "yes": "Yes, next",
+      "no": "No, let me fix",
+      "emptyHint": "Empty, like B site on Dust2. Hit “No, let me fix” to add shots by hand — or “Yes, next” if nobody fired.",
+      "found_one": "Found {{count}} shot",
+      "found_other": "Found {{count}} shots"
+    },
+    "editShots": {
+      "title": "Fix the markers",
+      "back": "Back to check",
+      "done": "Done",
+      "prev": "‹ Prev",
+      "next": "Next ›",
+      "first": "First ›",
+      "last": "‹ Last",
+      "position": "Shot {{index}} of {{total}}",
+      "hint": "Double-click: on a marker removes, on the wave adds · ← → nudges by a frame · wheel zooms",
+      "emptyHint": "No markers yet. Double-click the wave to add one.",
+      "reportLead": "Markers keep missing?",
+      "reportLink": "Let us know"
+    },
+    "addSound": {
+      "title": "Change the caliber",
+      "hint": "Record a voice clip, grab a sound from the arsenal, or drop your own file",
+      "swap": "<b>{{name}}</b> is in right now. Try the others — or keep it.",
+      "back": "Check",
+      "continue": "Lock in"
+    },
+    "preview": {
+      "title": "Clutch preview",
+      "hint": "Already with the new sound. Nudge markers or meme length — then download the clip.",
+      "back": "Another meme",
+      "startOver": "New highlight",
+      "download": "Loot the masterpiece",
+      "rendering": "Rendering… {{percent}}%",
+      "stat": {
+        "shots": "Shots",
+        "sound": "Sound",
+        "length": "Length"
+      }
+    },
+    "confirmLeave": "Back to the dropzone? Progress on this clip will be lost.",
+    "confirmStartOver": "Start over with a new highlight?",
+    "recordingName": "Voice — {{time}}",
+    "errors": {
+      "analysisFailed": "Couldn't parse this clip. Try another file.",
+      "decodeFailed": "Couldn't open that audio. Try another file.",
+      "exportFailed": "Render failed. Try again.",
+      "noAudioTrack": "This clip has no usable audio track.",
+      "outroLogoFailed": "Couldn't load the outro logo ({{status}})",
+      "outroAudioFailed": "Couldn't load the outro audio ({{status}})",
+      "outroCanvasFailed": "Couldn't create a canvas for the outro",
+      "invalidDuration": "Invalid clip duration ({{duration}})",
+      "noVideoTrack": "This clip has no video track.",
+      "unsupportedCodec": "We can't handle this clip's codec. Try another file.",
+      "noVideoEncoder": "This browser can't encode video. Try Chrome.",
+      "noAudioEncoder": "This browser can't encode audio. Try Chrome or another clip.",
+      "muxFailed": "Couldn't assemble the file. Try again."
+    },
+    "stepsAria": "Wizard steps",
+    "steps": {
+      "upload": "Clip",
+      "edit-shots": "Check",
+      "add-sound": "Meme",
+      "preview": "Loot"
+    }
+  },
+  "dropzone": {
+    "title": "Drop a highlight here",
+    "hint": "or tap to choose a file",
+    "upTo": "up to {{value}}",
+    "button": "Choose file"
+  },
+  "analyzing": {
+    "title": "Looking for shots",
+    "seconds": "{{value}} s",
+    "waiting": "waiting",
+    "ready": "done",
+    "searching": "crunching…",
+    "left": "~{{value}}s left",
+    "cancel": "Cancel",
+    "found_one": "{{count}} shot found",
+    "found_other": "{{count}} shots found",
+    "phase": {
+      "read": "Clip read",
+      "search": "Looking for shots",
+      "place": "Adding the sound"
+    }
+  },
+  "audioSource": {
+    "tabsAria": "Sound source",
+    "tabs": {
+      "library": "Arsenal",
+      "record": "Record",
+      "upload": "Own file"
+    },
+    "soundLength": "{{seconds}}s",
+    "libraryLoadFailed": "Arsenal didn't serve the sound. Try again.",
+    "libraryLoadFailedStatus": "Arsenal didn't serve the sound ({{status}})"
+  },
+  "library": {
+    "back": "← Back to base",
+    "title": "Meme arsenal",
+    "listAria": "Arsenal memes",
+    "playAria": "Preview {{name}}",
+    "stopAria": "Stop: {{name}}",
+    "sounds": {
+      "boing": "Boing",
+      "bonk": "Bonk",
+      "bloop": "Bloop",
+      "bubble": "Bubble",
+      "cash-register": "Cash register",
+      "drop-of-water": "Water drop",
+      "glug": "Glug",
+      "splash": "Splash",
+      "water-drop": "Faucet drip",
+      "water-splash": "Water splash",
+      "wet-splat": "Splat",
+      "wind": "Whoosh",
+      "metal": "Metal",
+      "meow": "Meow",
+      "squeaky-toy": "Squeaky toy",
+      "rubber-chicken": "Rubber chicken"
+    }
+  },
+  "recorder": {
+    "start": "Record a meme",
+    "hint": "up to {{duration}}",
+    "requesting": "Asking for mic access…",
+    "stop": "Stop",
+    "micDenied": "Mic unavailable. Check browser permissions — like a smoke with no bind."
+  },
+  "audioUpload": {
+    "label": "Drop your own sound",
+    "formats": "{{formats}} · up to {{size}} / {{duration}}",
+    "dropTitle": "Drop your sound here"
+  },
+  "trim": {
+    "hint": "Silence before the bang — drag left. Hearing gunshot echo — drag right.",
+    "label": "Meme length",
+    "value": "{{seconds}} s"
+  },
+  "shotsEditor": {
+    "rateAria": "Playback speed",
+    "rateLabel": "Speed",
+    "scoringMotion": "Refining with video…"
+  },
+  "analysis": {
+    "loading": "Hunting shots in the demo…"
+  },
+  "onset": {
+    "detector": "detector",
+    "fullClip": "full clip",
+    "range": "{{start}}–{{end}} s",
+    "play": "Play",
+    "pause": "Pause",
+    "resetZoom": "reset zoom",
+    "shotMarkers": "Shots",
+    "detectorLane": "Detector lane (for comparison)",
+    "hint": "Click to select · drag a point or ← → to move · double-click: on a shot removes, on the wave adds"
+  },
+  "limits": {
+    "units": {
+      "mb": "{{value}} MB",
+      "min": "{{value}} min",
+      "sec": "{{value}} sec"
+    },
+    "video": {
+      "typeError": "That's not a video. Need {{formats}}.",
+      "sizeError": "Clip is too chunky. Max {{size}}.",
+      "durationError": "Clip is longer than {{duration}}. Need a shorter highlight.",
+      "tooHeavyError": "Clip resolution is too high for the browser. Try 1080p or lower."
+    },
+    "audio": {
+      "typeError": "That's not audio. Need {{formats}}.",
+      "sizeError": "Audio is too heavy. Max {{size}}.",
+      "durationError": "Audio is longer than {{duration}}. Pick a shorter sound.",
+      "tooHeavyError": "Audio layout is too heavy. Need mono/stereo under 96 kHz."
+    }
+  },
+  "feedback": {
+    "title": "Write to us",
+    "close": "Close",
+    "topicLabel": "Topic",
+    "topics": {
+      "marks": {
+        "title": "Wrong markers",
+        "description": "the sound lands off the shots"
+      },
+      "broken": {
+        "title": "Something's broken",
+        "description": "won't open, froze, won't download"
+      },
+      "sound": {
+        "title": "New sound",
+        "description": "suggest a meme for the arsenal"
+      },
+      "idea": {
+        "title": "Idea or feedback",
+        "description": "what to improve, or just a few words"
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "ads, collaboration, creators"
+      }
+    },
+    "fields": {
+      "message": {
+        "marks": {
+          "label": "What's wrong",
+          "placeholder": "Missed a burst at 0:14, an extra marker right at the start…"
+        },
+        "broken": {
+          "label": "What were you doing",
+          "placeholder": "Hit “Grab the masterpiece”, it reached 90% and stuck…"
+        },
+        "idea": {
+          "label": "What's on your mind",
+          "placeholder": "It would be great if…"
+        },
+        "partnership": {
+          "label": "Your proposal",
+          "placeholder": "Who you are and what you'd like to set up"
+        }
+      },
+      "link": {
+        "marks": {
+          "label": "Where's the clip from",
+          "placeholder": "link to the source: YouTube, TikTok, Twitch",
+          "help": "The file itself can't be attached: it never leaves your browser."
+        },
+        "sound": {
+          "label": "Link to the sound",
+          "placeholder": "myinstants, YouTube, TikTok…"
+        }
+      },
+      "soundName": {
+        "label": "What to call it",
+        "placeholder": "Bruh"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@mail.com",
+        "help": "Without an email we can't reply to you."
+      }
+    },
+    "soundHint": "We can't take everything: meme sounds often have an owner. We'll check and add it if we can.",
+    "errors": {
+      "required": {
+        "message": "Write at least a few words",
+        "link": "Paste a link: without it we can't find the sound"
+      },
+      "oneOf": "Tell us what's wrong, or paste a link to the clip",
+      "notLink": "That doesn't look like a link",
+      "notEmail": "That doesn't look like an email"
+    },
+    "submit": "Send",
+    "sending": "Sending…",
+    "sent": {
+      "title": "Sent",
+      "lead": "Thanks. If you left an email, we'll reply.",
+      "close": "Close"
+    },
+    "failed": {
+      "title": "Didn't go through",
+      "lead": "The feedback service didn't respond. Your text is still in the form — try again.",
+      "retry": "Try again",
+      "copyLead": "Still failing?"
+    }
+  }
+}

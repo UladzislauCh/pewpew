@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "clip": "awp.mp4",
+  "slug": "awp-a61a768a",
+  "duration": 11.145578231292516,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-29T12:08:12.264Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 5.125124716553288,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 10.002086167800453,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    }
+  ]
+}

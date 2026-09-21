@@ -1,0 +1,119 @@
+.app {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.app__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: app-fade-up 0.55s ease-out both;
+}
+
+.app__title {
+  font-family: var(--display);
+  font-size: clamp(40px, 8vw, 52px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.app__title-accent {
+  color: var(--accent);
+}
+
+.app__subtitle {
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 420px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: app-fade-up 0.55s ease-out both;
+}
+
+.app__main > .card:nth-child(1) {
+  animation-delay: 0.06s;
+}
+.app__main > .card:nth-child(2) {
+  animation-delay: 0.12s;
+}
+.app__main > .card:nth-child(3) {
+  animation-delay: 0.18s;
+}
+
+.card__title {
+  font-family: var(--display);
+  font-size: 13px;
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.card__shots {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card__subtitle {
+  font-size: 15px;
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.card__hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: -4px;
+  line-height: 1.45;
+}
+
+.card__error {
+  font-size: 13px;
+  color: var(--danger);
+}
+
+@keyframes app-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app__header,
+  .card {
+    animation: none;
+  }
+}

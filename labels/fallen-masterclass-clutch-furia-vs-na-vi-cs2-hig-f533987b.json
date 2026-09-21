@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "clip": "FalleN MASTERCLASS Clutch - FURIA vs Na'Vi - CS2 Highlights.mp4",
+  "slug": "fallen-masterclass-clutch-furia-vs-na-vi-cs2-hig-f533987b",
+  "duration": 47.06684807256236,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-09-09T15:46:12.304Z",
+  "complete": false,
+  "shots": [
+    {
+      "time": 2.678058,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.718058,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.758058,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.7995691609977325,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.8483219954648527,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.994201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.114201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.254201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.324263,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.434201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.614201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.734201,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.144686,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.373631,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.45363,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.53363,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.613629,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.693628,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 32.700359,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 32.860356,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 40.336017,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 40.456017,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 40.556017,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 40.656017,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 40.756017,
+      "source": "own",
+      "weapon": null,
+      "hard": false
+    }
+  ]
+}

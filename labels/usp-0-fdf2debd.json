@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "clip": "usp_0.mp4",
+  "slug": "usp-0-fdf2debd",
+  "duration": 32.90267573696145,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-15T13:35:55.025Z",
+  "notes": "Смена оружия",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.8542630385487526,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.205396825396825,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.862176870748299,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.7064172335600905,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.940952380952381,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.771587301587301,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 9.452448979591837,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.743990929705216,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.011451247165533,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.413015873015873,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 14.34952380952381,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 14.570158730158731,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 14.762743764172336,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.194013605442176,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.901836734693877,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.514625850340135,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.80721088435374,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.083015873015874,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.61,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.794535147392292,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.054013605442176,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.20013605442177,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.364399092970523,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.50546485260771,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.72358276643991,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.86045351473923,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.66469387755102,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.912154195011336,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 20.31721088435374,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 20.635691609977325,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 20.635691609977325,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 20.84768707482993,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 21.08721088435374,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 21.42938775510204,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 21.78816326530612,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.14938775510204,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 22.36886621315193,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.61,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.9215873015873,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 23.633378684807255,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 23.866326530612245,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.055238095238096,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 24.266190476190477,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 24.80666666666667,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 25.289818594104307,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": true
+    },
+    {
+      "time": 27.329319727891157,
+      "source": "own",
+      "weapon": "usp_s",
+      "hard": false
+    },
+    {
+      "time": 27.733310657596373,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 27.95784580498866,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 28.648662131519274,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 28.89469387755102,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 29.14190476190476,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 29.33503401360544,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    }
+  ]
+}

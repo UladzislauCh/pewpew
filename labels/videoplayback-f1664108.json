@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "clip": "videoplayback.mp4",
+  "slug": "videoplayback-f1664108",
+  "duration": 15.701333333333332,
+  "sampleRate": 48000,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T14:21:10.390Z",
+  "notes": "на фоне играет легкая музыка",
+  "complete": true,
+  "shots": [
+    {
+      "time": 5.410541666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.506854166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.507583333333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.5644375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.609104166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.707145833333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.8113125,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.868791666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.905375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.971020833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.007291666666666,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.105104166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.169104166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.207583333333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.268833333333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.309166666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.407125,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.478020833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.526729166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.568770833333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.609229166666666,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.707041666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.778041666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.8113125,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.868791666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.3225,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.4229375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.4229375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.4943125,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.568666666666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.600270833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.658625,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.711854166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.785229166666666,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.814375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.8980625,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.960708333333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.002875,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.0685,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.0969375,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.217395833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.217395833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.2685,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.296354166666667,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.378833333333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.397520833333333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.464125,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.496270833333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.591208333333332,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.59625,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.697145833333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.697145833333334,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.7685,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.7454375,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 11.1301875,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 11.521625,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 11.907895833333333,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 12.324416666666666,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 12.836666666666666,
+      "source": "enemy",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 13.1461875,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.232645833333333,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.241875,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.339416666666667,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.3604375,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.464520833333333,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.640979166666666,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 13.854479166666666,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    }
+  ]
+}

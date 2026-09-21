@@ -1,0 +1,142 @@
+.recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.recorder--tile {
+  width: 100%;
+}
+
+.recorder__start--tile {
+  width: 100%;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 8px;
+  font-family: var(--sans);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.recorder__icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  filter: brightness(0);
+}
+
+.recorder__start-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  line-height: 1.2;
+}
+
+.recorder__start-label {
+  display: block;
+}
+
+.recorder__start-hint {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.recorder--active {
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Same flat-button reference as `.wizard__primary`, just smaller. */
+.recorder__start {
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-fg);
+  border-radius: var(--radius);
+  padding: 14px 22px;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.recorder__start:hover:not(:disabled) {
+  background: var(--accent-strong);
+}
+
+.recorder__start:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.recorder__error {
+  color: var(--danger);
+  font-size: 13px;
+  text-align: center;
+  font-family: var(--mono);
+}
+
+.recorder__indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--danger);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.7);
+  animation: recorder-pulse 0.7s ease-in-out infinite;
+}
+
+.recorder__time {
+  font-family: var(--mono);
+  color: var(--text-h);
+  font-size: 15px;
+  min-width: 40px;
+  font-variant-numeric: tabular-nums;
+}
+
+.recorder__stop {
+  border: 1px solid var(--danger);
+  background: var(--danger-bg);
+  color: var(--text-h);
+  border-radius: var(--radius);
+  padding: 9px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: var(--display);
+  cursor: pointer;
+}
+
+.recorder__stop:hover {
+  background: var(--danger);
+  color: #ffffff;
+}
+
+@keyframes recorder-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1.25);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recorder__indicator {
+    animation: none;
+  }
+}

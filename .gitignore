@@ -1,0 +1,95 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvb
+*.njsproj
+*.sln
+*.sw?
+
+# Local test media (personal recordings, not project assets)
+*.mp4
+*.mov
+*.webm
+
+/examples/*
+
+# Внешние скиллы: чужой код от claudekit, три из них вообще без лицензии
+# (brand, slides, ui-ux-pro-max) — распространять нельзя. Лежат на диске и работают:
+# Claude Code читает .claude/ из файловой системы, а не из гита.
+.claude/skills/*
+!.claude/skills/video-analysis-optimizer/
+
+# Local YAMNet / candidate-scoring scratch (not part of the app)
+.venv-yamnet/
+eval/.yamnet_model/
+eval/.candidates.json
+eval/.yamnet_scores.json
+
+# Временная папка сверки декодирования (eval/decodeCheckPrep.ts)
+/fixtures/__check/
+
+# Временная папка разбора ошибок (eval/errorReviewPrep.ts)
+/fixtures/__review/
+
+# Временная папка разметки области оружия (eval/weaponRegionPrep.ts)
+/fixtures/__region/
+
+# Временная папка замера сигнала в области оружия (eval/weaponSignalPrep.ts)
+/fixtures/__signal/
+
+# Временная папка автопоиска области оружия (eval/viewmodelPrep.ts)
+/fixtures/__viewmodel/
+
+# Временная папка взвешенного замера (eval/weightedPrep.ts)
+/fixtures/__weighted/
+
+# Временная папка выгрузки стопок кадров (eval/stackPrep.ts)
+/fixtures/__stacks/
+
+# Клипы для сверки считывателя счётчика: симлинки, раскладывает eval/ammoPrep.ts
+/fixtures/__ammo/
+
+# Три модели ступени по движению переехали в fixtures/models: продукт их не грузит,
+# и в public/ они попадали бы в сборку. Сами файлы отслеживаются, каталог — нет.
+/fixtures/__test/
+
+# Кэш сигналов движения и кривых ShotNet для eval (перенесён из pewpew_c, ~6 МБ)
+/eval/.cache/
+
+# Кадры, нарезанные для дообучения модели вспышки. Восстанавливаются
+# из examples/ скриптом python/tools/cut_frames.py.
+/dataset/
+
+# Промежуточный экспорт ultralytics рядом с весами: продуктовая копия лежит
+# в public/models/flashNet.onnx, вторая только путает.
+model/*/best.onnx
+
+# Веса обучения: четыре поколения, ~105 МБ. Продукт их не грузит — он берёт
+# public/models/flashNet416.onnx. Копия: ~/Projects/pewpew-assets/model.
+/model/
+
+# Питоновский кеш скиллов
+__pycache__/
+*.pyc
+
+# Local environment variables; the template is .env.example
+.env
+
+# Local labeler submissions (original clips and labels); not project data
+/inbox/

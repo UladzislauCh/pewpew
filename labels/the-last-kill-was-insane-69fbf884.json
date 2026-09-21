@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "clip": "the last KILL was insane 🔥.mp4",
+  "slug": "the-last-kill-was-insane-69fbf884",
+  "duration": 22.96453514739229,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T14:31:36.418Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.5389115646258504,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 5.379387755102041,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 5.873310657596372,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.978934240362812,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.082312925170068,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.1545578231292515,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.2706575963718825,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.387301587301588,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.474716553287982,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.780566893424036,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.882857142857143,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.980294784580499,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.083333333333333,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.176575963718821,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.490226757369615,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 7.62092970521542,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.741020408163266,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.837959183673469,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.51702947845805,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.845827664399094,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 11.46467120181406,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 13.10718820861678,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.229138321995466,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.365555555555556,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": false
+    },
+    {
+      "time": 13.570226757369614,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 13.663809523809524,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 13.770702947845805,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 13.863764172335602,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 13.976689342403628,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 14.073922902494331,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 14.162380952380952,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 14.281496598639455,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 14.385102040816326,
+      "source": "enemy",
+      "weapon": "m4a4",
+      "hard": false
+    },
+    {
+      "time": 21.920907029478457,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.03609977324263,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.118299319727893,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.20877551020408,
+      "source": "own",
+      "weapon": "ssg08",
+      "hard": true
+    },
+    {
+      "time": 22.426009070294786,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.53609977324263,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.618798185941042,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 22.705238095238094,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    }
+  ]
+}

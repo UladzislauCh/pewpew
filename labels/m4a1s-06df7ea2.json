@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "clip": "m4a1s.mp4",
+  "slug": "m4a1s-06df7ea2",
+  "duration": 14.628571428571428,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T12:32:47.603Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.6169387755102043,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 2.7234920634920634,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 2.8032879818594103,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 2.890408163265306,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 2.962857142857143,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.1005442176870748,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.2282766439909296,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.336235827664399,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.429365079365079,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.5284353741496597,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.6273922902494333,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.7337868480725622,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.825419501133787,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.904875283446712,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 3.9846485260770974,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 4.105102040816327,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 4.211473922902495,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 4.311360544217687,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 4.382018140589569,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 4.484353741496599,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 5.991655328798186,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.972607709750567,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 8.049160997732427,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 8.18673469387755,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 8.29170068027211,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 9.708811,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 9.779821,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 9.889287,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 9.988225,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.077111,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.191770728538744,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.276536,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.515736,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.594679,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.719924,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.806439,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.901699,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 10.999302,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 11.316154,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 11.393211,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 11.483395,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    }
+  ]
+}

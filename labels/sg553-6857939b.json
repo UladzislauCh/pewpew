@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "clip": "sg553.mp4",
+  "slug": "sg553-6857939b",
+  "duration": 8.475283446712018,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-29T13:42:40.983Z",
+  "complete": false,
+  "shots": [
+    {
+      "time": 0.7078458049886621,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 0.7849659863945578,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 0.8846031746031746,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 0.9409750566893424,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 0.9903174603174603,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.0494331065759637,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.1844897959183673,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.2833786848072561,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.3911111111111112,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.4899773242630385,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.5222448979591836,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.6138775510204082,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.6565532879818594,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.741859410430839,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.8196371882086169,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 1.940907029478458,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.0179818594104306,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.101451247165533,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.1249886621315195,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.2008843537414964,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.2637414965986395,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.324467120181406,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 2.403650793650794,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 4.130839002267574,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 4.183560090702948,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 4.347256235827665,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 4.583560090702948,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.16469387755102,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.2562131519274375,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.326258503401361,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.4885260770975055,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.588321995464852,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    },
+    {
+      "time": 6.710136054421769,
+      "source": "own",
+      "weapon": "sg553",
+      "hard": false
+    }
+  ],
+  "notes": "Разметка не закончена: слишком много выстрелов, доразметить."
+}

@@ -1,0 +1,107 @@
+/* Meme-length slider — like `.slider`/`.rail`/`.knob` in the mockup: heading and current
+   value on one line, the rail filled up to the knob, a hint phrased as the effect
+   (“you can hear the shot's tail”) rather than the mechanism (“silence threshold”).
+   A 3px gap, not 9 as in the mockup: the `<input>` has its own invisible padding of
+   (field height − rail height) / 2 = 6px on each side — a touch area the mockup's div
+   doesn't have. 6px of padding + 3px of gap = 9px to the text, as in the mockup;
+   with the full 9px gap it came out at 19px — hence the “big spacing” complaint. */
+.trim-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.trim-slider__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.trim-slider__title {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.trim-slider__value {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.trim-slider__input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 16px;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.trim-slider__input::-webkit-slider-runnable-track {
+  box-sizing: border-box;
+  height: 4px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: linear-gradient(
+    to right,
+    var(--accent) var(--fill, 0%),
+    var(--bg-panel) var(--fill, 0%)
+  );
+}
+
+.trim-slider__input::-moz-range-track {
+  height: 4px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: var(--bg-panel);
+}
+
+.trim-slider__input::-moz-range-progress {
+  height: 4px;
+  border-radius: 3px 0 0 3px;
+  background: var(--accent);
+}
+
+.trim-slider__input::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  /* border-box is set explicitly both here and on the rail — otherwise browsers disagree
+     on whether the rail's border counts toward its height, and the knob slides off the
+     line's centre. With border-box the rail's total height is exactly the declared 4px
+     (border inside, not on top). Knob centre on rail centre: (4 - 18) / 2 = -7px. */
+  margin-top: -7px;
+  border-radius: 50%;
+  background: var(--text-h);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
+
+.trim-slider__input::-moz-range-thumb {
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--text-h);
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
+
+.trim-slider__input:focus-visible {
+  outline: 2px solid var(--text-h);
+  outline-offset: 2px;
+}
+
+.trim-slider__hint {
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--text-muted);
+}

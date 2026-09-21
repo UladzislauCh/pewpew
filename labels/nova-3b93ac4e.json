@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "clip": "nova.mp4",
+  "slug": "nova-3b93ac4e",
+  "duration": 26.21532879818594,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T16:59:07.855Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.003219954648526,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 3.1648979591836737,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 3.3685941043083902,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 3.5619501133786846,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.19297052154195,
+      "source": "own",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.251678004535147,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.3921768707483,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.507551020408163,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.593015873015872,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.696666666666667,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.802471655328798,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.874308390022676,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 11.998843537414967,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.065442176870748,
+      "source": "own",
+      "weapon": "nova",
+      "hard": true
+    },
+    {
+      "time": 12.126757369614513,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.253514739229026,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.381020408163264,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.465986394557824,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.539070294784581,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 12.699138321995465,
+      "source": "enemy",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 16.024399092970523,
+      "source": "own",
+      "weapon": "nova",
+      "hard": false
+    },
+    {
+      "time": 19.94734693877551,
+      "source": "own",
+      "weapon": "nova",
+      "hard": true
+    },
+    {
+      "time": 22.639455782312925,
+      "source": "own",
+      "weapon": "nova",
+      "hard": true
+    },
+    {
+      "time": 23.616462585034014,
+      "source": "own",
+      "weapon": "nova",
+      "hard": false
+    }
+  ]
+}

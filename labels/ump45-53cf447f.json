@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "clip": "ump45.mp4",
+  "slug": "ump45-53cf447f",
+  "duration": 15.882448979591837,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T14:27:46.172Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.6936734693877553,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 3.74,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 3.84469387755102,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 3.9260090702947847,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.030113378684807,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.108253968253968,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.191655328798186,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.377052154195011,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.4582993197278915,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.734285714285714,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 4.851292517006803,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.927709750566893,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.006326530612245,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.076213151927438,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.217120181405896,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.343673469387755,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.432312925170068,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.483809523809524,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.5745124716553285,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 5.734399092970522,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 5.758662131519275,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 7.674784580498867,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 7.766575963718821,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 7.780498866213152,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 7.941882086167801,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.044603174603175,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.127709750566893,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.220544217687074,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.30015873015873,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.390997732426303,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.484467120181407,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.545170068027211,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 8.637142857142857,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 10.65609977324263,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 10.736734693877551,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 10.760181405895691,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 10.847936507936508,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 10.917414965986394,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.003696145124717,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.080770975056689,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.109092970521543,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.195510204081632,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.621859410430838,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.798163265306123,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.888843537414965,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 11.990045351473922,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 12.072290249433106,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 12.155600907029479,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    },
+    {
+      "time": 12.258820861678004,
+      "source": "own",
+      "weapon": "ump45",
+      "hard": false
+    }
+  ]
+}

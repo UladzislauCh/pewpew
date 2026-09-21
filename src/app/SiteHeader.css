@@ -1,0 +1,252 @@
+.site-header {
+  position: relative;
+  z-index: 100;
+  border-bottom: 1px solid var(--border);
+  /* Solid background, not translucent with blur: the header and the step bar are
+     one block of chrome at the top and share a backdrop. There is nothing to blur
+     anyway: the header isn't sticky, content never scrolls under it. */
+  background: var(--bg-elevated);
+}
+
+.site-header__inner {
+  width: 100%;
+  /* Header, footer and content column share one width: otherwise on a wide screen
+     the logo at the top and the content below it sit on different verticals. */
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 56px;
+  padding:
+    max(8px, env(safe-area-inset-top))
+    max(16px, env(safe-area-inset-right))
+    8px
+    max(16px, env(safe-area-inset-left));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-h);
+  min-width: 0;
+}
+
+.site-header__brand:hover .site-header__wordmark {
+  color: var(--accent);
+}
+
+.site-header__mark {
+  display: block;
+  height: 36px;
+  width: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.site-header__wordmark {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  line-height: 1;
+  transition: color var(--dur) var(--ease-snap);
+}
+
+.site-header__beta {
+  align-self: flex-start;
+  margin-top: 2px;
+  padding: 2px 5px;
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-sm);
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.site-header__actions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.site-header__menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    color var(--dur) var(--ease-snap),
+    background var(--dur) var(--ease-snap),
+    border-color var(--dur) var(--ease-snap);
+}
+
+.site-header__menu-btn:hover {
+  color: var(--text-h);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.site-header__menu-btn--open {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.site-header__menu-icon {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+  box-shadow:
+    0 -5px 0 currentColor,
+    0 5px 0 currentColor;
+  transition:
+    transform var(--dur) var(--ease-snap),
+    box-shadow var(--dur) var(--ease-snap),
+    background var(--dur) var(--ease-snap);
+}
+
+.site-header__menu-btn--open .site-header__menu-icon {
+  background: transparent;
+  box-shadow: none;
+  transform: rotate(45deg);
+}
+
+.site-header__menu-btn--open .site-header__menu-icon::before,
+.site-header__menu-btn--open .site-header__menu-icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.site-header__menu-btn--open .site-header__menu-icon::after {
+  transform: rotate(90deg);
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.site-header__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 12px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: var(--radius-sm);
+  transition:
+    color var(--dur) var(--ease-snap),
+    background var(--dur) var(--ease-snap);
+}
+
+/* The “Feedback” item is a button that has to look like the neighbouring links. */
+.site-header__link--button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.site-header__link:hover {
+  color: var(--text-h);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.site-header__link--active {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
+
+@media (max-width: 640px) {
+  .site-header__wordmark {
+    font-size: 18px;
+  }
+
+  .site-header__actions {
+    gap: 6px;
+  }
+
+  .site-header__menu-btn {
+    display: inline-flex;
+  }
+
+  .site-header__nav {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 110;
+    min-width: 200px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-elevated);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    pointer-events: none;
+    transition:
+      opacity var(--dur) var(--ease-snap),
+      transform var(--dur) var(--ease-snap),
+      visibility var(--dur) var(--ease-snap);
+  }
+
+  .site-header__nav--open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .site-header__link {
+    min-height: 40px;
+    padding: 0 12px;
+    font-size: 12px;
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header__menu-icon,
+  .site-header__nav {
+    transition: none;
+  }
+}

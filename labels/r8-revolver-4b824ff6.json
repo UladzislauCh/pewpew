@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "clip": "r8_revolver.mp4",
+  "slug": "r8-revolver-4b824ff6",
+  "duration": 10.170340136054422,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-29T13:48:58.124Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.22843537414966,
+      "source": "own",
+      "weapon": "r8_revolver",
+      "hard": false
+    },
+    {
+      "time": 5.048027210884354,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.3841269841269845,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.649433106575963,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.87063492063492,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.298344671201814,
+      "source": "own",
+      "weapon": "r8_revolver",
+      "hard": false
+    }
+  ]
+}

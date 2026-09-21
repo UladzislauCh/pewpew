@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "clip": "mp5sd.mp4",
+  "slug": "mp5sd-ce3450f9",
+  "duration": 52.453877551020405,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:28:37.411Z",
+  "notes": "В одном из моментов игрок ослеплен флешкой, из-за чего на время не видно счетчика",
+  "complete": true,
+  "shots": [
+    {
+      "time": 19.698461,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 19.733459,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 19.86845,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 19.931651,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 20.036644,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 20.09891,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 20.163906,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 20.263898,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 20.328894,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 32.902219,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 33.00202579724788,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 33.067205,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 33.16700588787296,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.063894,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.168601274415735,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.22964708187126,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.32915179020287,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.408372570665094,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 37.47638214707724,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 38.538321,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 38.62815,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 38.71337868480725,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 38.872902494331065,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 38.948185941043086,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 39.01689342403628,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 39.1165306122449,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.191473922902496,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.30671201814059,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.39054421768707,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.54210884353741,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.65582766439909,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.742539682539686,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 44.85383219954649,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 45.00596371882086,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 45.09374149659864,
+      "source": "enemy",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.525668934240365,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.60641723356009,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.69826,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.817845804988664,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.88553287981859,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    },
+    {
+      "time": 48.97530612244898,
+      "source": "own",
+      "weapon": "mp5sd",
+      "hard": false
+    }
+  ]
+}

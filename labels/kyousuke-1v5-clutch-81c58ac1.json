@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "clip": "KYOUSUKE 1V5 CLUTCH !! 😱.mp4",
+  "slug": "kyousuke-1v5-clutch-81c58ac1",
+  "duration": 30.023401360544216,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:10:18.738Z",
+  "notes": "Есть перезарядка",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.10530612244897959,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.19419501133786848,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.32206349206349205,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.776705875235671,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 4.8627527484710935,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 4.959741502212418,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.070238341052122,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.202131519274376,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.262325,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 5.370023186891562,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.513945578231292,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.622063492063493,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.686621315192744,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.775192743764173,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.862335600907029,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.92614131980073,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.031384900801196,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.143487915052438,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.265347714887094,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.371159151133154,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.460583446513423,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.593696145124717,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 13.627887,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 13.731249404155156,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 13.82548495549847,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 13.935757316044533,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.024534053627649,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.129363038235237,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.218871528567881,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.329687,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.429279,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.500787766125757,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.908123954901376,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 15.495119,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 15.597760037342304,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 15.706876597020194,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 15.808186179021344,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 19.791050192857796,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 19.87057319289685,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 19.973026648715777,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.070079049988063,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.16371917112728,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.277997225726658,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.375703,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.477155,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 20.577511,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 27.035031,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 27.14089929397253,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 27.233796036342287,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 27.33856406017453,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 27.4446485260771,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    }
+  ]
+}

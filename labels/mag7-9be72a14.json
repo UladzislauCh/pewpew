@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "clip": "mag7.mp4",
+  "slug": "mag7-9be72a14",
+  "duration": 16.207528344671204,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-29T13:14:33.232Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.0152607709750567,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.130113378684807,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.4114739229024944,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.497777777777778,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.6150113378684807,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.699002267573696,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.7943537414965984,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.885691609977324,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.9968934240362812,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 3.070408163265306,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 3.15124716553288,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 3.221315192743764,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 3.2586167800453514,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 3.3263038548752832,
+      "source": "enemy",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.420657596371882,
+      "source": "own",
+      "weapon": "mag7",
+      "hard": false
+    },
+    {
+      "time": 11.27390022675737,
+      "source": "own",
+      "weapon": "mag7",
+      "hard": false
+    },
+    {
+      "time": 12.346916099773242,
+      "source": "own",
+      "weapon": "mag7",
+      "hard": false
+    },
+    {
+      "time": 13.182607709750567,
+      "source": "own",
+      "weapon": "mag7",
+      "hard": false
+    },
+    {
+      "time": 14.263560090702947,
+      "source": "own",
+      "weapon": "mag7",
+      "hard": false
+    }
+  ]
+}

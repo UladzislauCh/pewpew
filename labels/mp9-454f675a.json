@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "clip": "mp9.mp4",
+  "slug": "mp9-454f675a",
+  "duration": 28.11936507936508,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T15:29:24.298Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 5.245351473922902,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.403061224489796,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.511609977324263,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.576349206349207,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.624965986394558,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.669795918367347,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.708140589569161,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 6.8363265306122445,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 7.941882086167801,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.065646258503401,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.16655328798186,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.389251700680273,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.530997732426304,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.100521541950114,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.208707482993198,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.923219954648527,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.053990929705215,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.136961451247165,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.420544217687075,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.503786848072563,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.661836734693878,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.921836734693878,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.353968253968254,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.691655328798186,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.309727891156463,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.623061224489796,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.100045351473923,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.86829931972789,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 13.963310657596372,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.074240362811791,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.12750566893424,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.221519274376417,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.33061224489796,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.71281179138322,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.807233560090703,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.828253968253968,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 14.925555555555556,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 15.007891156462586,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.14625850340136,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.231609977324265,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.307142857142857,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.592517006802723,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.676575963718822,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 18.952789115646258,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 19.073673469387757,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 19.231541950113378,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 23.970680272108844,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.066371882086166,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.184308390022675,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.3297052154195,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.444308390022677,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.5815873015873,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 24.638231292517005,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    }
+  ]
+}

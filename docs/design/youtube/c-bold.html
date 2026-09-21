@@ -1,0 +1,24 @@
+<meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=IBM+Plex+Sans:wght@500;600&family=IBM+Plex+Mono:wght@500;600&display=block"><link rel="stylesheet" href="_base.css">
+<style>
+  .canvas { background: radial-gradient(ellipse 70% 70% at 50% 50%, #151922 0%, var(--bg) 60%); }
+  .giant { position:absolute; left:50%; top:50%; transform: translate(-50%, -50%); margin:0; white-space:nowrap;
+    font: 700 760px/0.8 var(--display); letter-spacing: -.01em; color: transparent; -webkit-text-stroke: 4px rgba(249,115,22,.22); text-transform: uppercase; }
+  .burst { position:absolute; left: 1280px; top: 720px; width: 1500px; height: 1500px; transform: translate(-50%,-50%);
+    background: repeating-conic-gradient(from 0deg, rgba(249,115,22,.07) 0 6deg, transparent 6deg 18deg); mask-image: radial-gradient(circle, #000 18%, transparent 58%); }
+  .safe { justify-content: center; gap: 60px; }
+  .chicken { width: 320px; height: 375px; filter: drop-shadow(0 20px 40px rgba(0,0,0,.6)); }
+  .wordmark { font-size: 176px; }
+  .tagline { font-size: 52px; margin-top: 18px; color: var(--text-h); text-transform: uppercase; font-family: var(--display); font-weight: 700; letter-spacing: .04em; }
+  .tagline span { color: var(--accent); }
+</style>
+<div class="canvas">
+  <div class="burst"></div>
+  <p class="giant" aria-hidden="true">PEW PEW</p>
+  <div class="safe">
+    <div class="chicken"><img src="../../../public/pewpew-logo.png" alt=""></div>
+    <div>
+      <h1 class="wordmark">pewpew<b>.baby</b></h1>
+      <p class="tagline">Your shots. <span>Our memes.</span></p>
+    </div>
+  </div>
+</div><script>if(location.search.includes("guides")){const c=document.querySelector(".canvas");c.classList.add("guides");c.insertAdjacentHTML("beforeend",`<div class="g-desktop"></div><div class="g-safe"></div><div class="g-label" style="left:12px;top:462px;color:#5b9bd5">desktop 2560×423</div><div class="g-label" style="left:517px;top:942px;color:#a3e635">safe · all devices 1546×423</div>`)}</script>

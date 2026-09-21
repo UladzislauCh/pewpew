@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "clip": "tec9.mp4",
+  "slug": "tec9-721d0a63",
+  "duration": 27.817505668934242,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T14:33:32.676Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.7528571428571429,
+      "source": "enemy",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 0.8326984126984127,
+      "source": "enemy",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 0.9140362811791384,
+      "source": "enemy",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 1.0738321995464852,
+      "source": "enemy",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 1.1612925170068027,
+      "source": "enemy",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 11.116145124716553,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.39562358276644,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.564104308390023,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 12.55437641723356,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 12.77390022675737,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 12.900952380952381,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 13.06641723356009,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 13.190430839002268,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 13.34814058956916,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 15.112358276643992,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.305192743764172,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.49798185941043,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.78891156462585,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.937052154195012,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.07795918367347,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 16.252358276643992,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 17.922743764172335,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.097369614512473,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.169024943310657,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.33172335600907,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.477891156462587,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.578684807256234,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.69455782312925,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.94124716553288,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 21.075170068027212,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 21.823287981859412,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 21.97469387755102,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 22.09793650793651,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 22.249591836734695,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 22.38675736961451,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 23.784943310657596,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": false
+    },
+    {
+      "time": 23.875963718820863,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 23.931133786848072,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 24.072267573696145,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 24.170136054421768,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 24.20827664399093,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    },
+    {
+      "time": 24.3659410430839,
+      "source": "own",
+      "weapon": "tec9",
+      "hard": true
+    }
+  ]
+}

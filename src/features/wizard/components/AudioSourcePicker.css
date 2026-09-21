@@ -1,0 +1,140 @@
+.audio-source-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tabs, like `.tabs` in the mockup: monospace labels with an underline, the active one
+   in the accent. Not tile buttons: this is a mode switch, not a choice of action. */
+.audio-source-picker__tabs {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.audio-source-picker__tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--border);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.audio-source-picker__tab:hover {
+  color: var(--text);
+}
+
+.audio-source-picker__tab--on {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Sound card grid — `.snd-grid`/`.snd` from the mockup. Each card is TWO real buttons
+   side by side (play and select), not a button nested in a button: that keeps the item
+   keyboard-accessible and doesn't break the nesting rules for interactive
+   elements. */
+.audio-source-picker__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 639px) {
+  .audio-source-picker__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 419px) {
+  .audio-source-picker__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.audio-source-picker__snd {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  min-height: 56px;
+  padding: 11px 12px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.audio-source-picker__snd--on {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.audio-source-picker__snd-play {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.audio-source-picker__snd-play:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.audio-source-picker__snd--on .audio-source-picker__snd-play {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.audio-source-picker__snd-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.audio-source-picker__snd-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13.5px;
+  color: var(--text);
+}
+
+.audio-source-picker__snd--on .audio-source-picker__snd-name {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.audio-source-picker__snd-len {
+  flex: 0 0 auto;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.audio-source-picker__panel {
+  padding: 2px 0;
+}

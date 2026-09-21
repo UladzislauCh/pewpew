@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "clip": "sawedoff.mp4",
+  "slug": "sawedoff-4d0b1bb9",
+  "duration": 22.77877551020408,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T15:00:07.779Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.9248979591836735,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 2.8641496598639455,
+      "source": "enemy",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 2.999659863945578,
+      "source": "enemy",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 3.157573696145125,
+      "source": "enemy",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 3.3610204081632653,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 7.858390022675737,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.936916099773242,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": false
+    },
+    {
+      "time": 18.025034013605442,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 18.77077097505669,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.101088435374148,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": true
+    },
+    {
+      "time": 19.253809523809522,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.343514739229025,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.462290249433106,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.55875283446712,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.694013605442176,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.74514739229025,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.85238095238095,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 19.956780045351476,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": true
+    },
+    {
+      "time": 20.007324263038548,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.261337868480727,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.339931972789117,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.453628117913834,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.54891156462585,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.65340136054422,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.73467120181406,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 20.856757369614513,
+      "source": "own",
+      "weapon": "sawedoff",
+      "hard": true
+    }
+  ]
+}

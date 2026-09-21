@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "clip": "Torzsi flipped a 2v4 with THREE massive kills #blast #bounty #cs #cs2 #csgo.mp4",
+  "slug": "torzsi-flipped-a-2v4-with-three-massive-kills-bl-7c018621",
+  "duration": 27.956825396825398,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T14:29:34.152Z",
+  "complete": false,
+  "shots": [
+    {
+      "time": 7.2909750566893425,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.358684807256235,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.485963718820861,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.607687074829932,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.836145124716554,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.016009070294784,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.132517006802722,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.207369614512471,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.631315192743765,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.73326530612245,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.749591836734695,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.973560090702948,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.129047619047618,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.217097505668935,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.495873015873016,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.842063492063492,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 15.970362811791384,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 16.12362811791383,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 16.438820861678003,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 16.56609977324263,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 16.716122448979593,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 16.841587301587303,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    }
+  ],
+  "notes": "Разметка не закончена: слишком много выстрелов, доразметить."
+}

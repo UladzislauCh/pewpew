@@ -1,0 +1,124 @@
+.dropzone-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/*
+ * Drop zone per the mockup: a thin dashed border on the panel background.
+ *
+ * The previous version was twice as thick and glowed with an orange radial gradient AT REST.
+ * Glow is the language of hover, and when it's always on, hover has nothing left to say:
+ * you had to hunt for the difference between “just a zone” and “a file is about to land here”.
+ * Here rest is quiet, and the accent is saved for hover and drag.
+ */
+.dropzone {
+  position: relative;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 34px 20px;
+  text-align: center;
+  cursor: pointer;
+  background: var(--bg-panel);
+  transition:
+    border-color var(--dur) var(--ease-snap),
+    background var(--dur) var(--ease-snap);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.dropzone:hover {
+  border-color: var(--accent-border);
+  background: var(--bg-elevated);
+}
+
+/* A file over the zone: the border turns SOLID. Dashed means “you can drop here”,
+   solid means “let go now”; colour alone can't tell these two states apart. */
+.dropzone--active {
+  border-color: var(--accent);
+  border-style: solid;
+  background: var(--accent-bg);
+}
+
+.dropzone__input {
+  display: none;
+}
+
+.dropzone__icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin: 0 auto 12px;
+  color: var(--accent);
+}
+
+.dropzone__title {
+  margin: 0 0 6px;
+  color: var(--text-h);
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The hint is in the regular font, not monospace: it's a sentence, not a value.
+   Monospace in this project is reserved for numbers, codes and tag-like labels. */
+.dropzone__hint {
+  margin: 0;
+  color: var(--text-muted);
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/*
+ * Limits sit inside the zone, under the hint: they're read BEFORE choosing a file, not
+ * after a rejection. Three short values in a row are taken in at a glance; the same three
+ * inside a sentence (“mp4, webm, mov · up to 15 MB / 1 min”) are not.
+ */
+.dropzone__limits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/*
+ * A real button under the zone. Not decoration: the zone is a drop area with no reason to
+ * be a keyboard target, but choosing a file without a mouse has to work.
+ */
+.dropzone__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--accent-fg);
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background var(--dur) var(--ease-snap);
+}
+
+.dropzone__button:hover {
+  background: var(--accent-strong);
+}
+
+.dropzone__button:focus-visible {
+  outline: 2px solid var(--text-h);
+  outline-offset: 2px;
+}

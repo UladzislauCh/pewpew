@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "clip": "THIS ISN’T LEGAL! m0NESY'S FILTHY DOUBLE WITH A WALLBANG NOSCOPE!  #esl #cs #кс #csgo.mp4",
+  "slug": "this-isn-t-legal-m0nesy-s-filthy-double-with-a-w-f3a83c40",
+  "duration": 9.7059410430839,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:41:11.533Z",
+  "notes": "Счетчик от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 4.367052154195012,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    },
+    {
+      "time": 6.888299319727891,
+      "source": "own",
+      "weapon": "awp",
+      "hard": false
+    }
+  ]
+}

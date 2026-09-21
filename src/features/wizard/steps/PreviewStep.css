@@ -1,0 +1,57 @@
+/* Three-number summary — like `.stat` in the mockup: three cells in a row with a shared
+   border between them (a 1px background gap instead of three separate borders).
+   `margin: 0`, not just “remove the margin”: `<dl>` has a default browser margin
+   (~16px top and bottom), and nothing in the project resets it — the reset only covers
+   `body`/`h1-h3`/`p`. Without an explicit zero, what showed here was SOMEONE ELSE'S
+   margin: the browser's 16px plus the 14px `.wizard__content` gap between children —
+   a new take on the same doubled margin-bottom mistake (see AnalyzingStep.css).
+   The neighbour below, the video card, has no margin of its own either — only the parent's gap. */
+.preview__stat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 0;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.preview__stat div {
+  background: var(--bg-panel);
+  padding: 8px 10px 6px;
+  min-width: 0;
+  color: var(--text-muted);
+}
+
+.preview__stat dt {
+  margin-bottom: 2px;
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.preview__stat dd {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+}
+
+/* A sound name can be longer than a number — it shrinks and truncates, but doesn't wrap
+   or stretch the cell (same trick as the sound cards on the “Meme” step).
+   The `.preview__stat dd` selector two rules above is class plus element, i.e. more
+   specific than the single class `.preview__stat-sound`: without repeating class and
+   element here, its 17px beat the 14px declared here, even though this rule comes later
+   in the file. */
+.preview__stat dd.preview__stat-sound {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

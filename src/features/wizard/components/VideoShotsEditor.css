@@ -1,0 +1,94 @@
+/* A column of two independent cards (video, track) with a 14px gap between them,
+   matching the margin-bottom of `.vid` in the mockup. Border, background and shadow now
+   live on `__card`, not on this wrapper: the track has its own card, drawn by `OnsetCurveView`. */
+.video-shots-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.video-shots-editor__card {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow);
+}
+
+.video-shots-editor__video {
+  display: block;
+  width: 100%;
+  max-height: min(44vh, 340px);
+  background: #000;
+  object-fit: contain;
+}
+
+.video-shots-editor__rates {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-top: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.video-shots-editor__rates-label {
+  margin-right: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: var(--mono);
+}
+
+.video-shots-editor__rate {
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--mono);
+  cursor: pointer;
+}
+
+.video-shots-editor__rate:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.video-shots-editor__rate--active {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  color: var(--accent);
+  box-shadow: var(--accent-glow);
+}
+
+.video-shots-editor .analysis {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.video-shots-editor__footer {
+  padding-top: 14px;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid var(--border);
+  color: var(--text);
+}
+
+@media (min-width: 640px) {
+  .video-shots-editor__footer {
+    padding-top: 18px;
+  }
+}
+
+.video-shots-editor__motion-status {
+  font-size: 13px;
+  opacity: 0.7;
+}

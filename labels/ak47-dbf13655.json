@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "clip": "ak47.mp4",
+  "slug": "ak47-dbf13655",
+  "duration": 21.966077097505668,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T10:32:14.660Z",
+  "notes": "На фоне слышны комментаторы. Плотная очередь. Разметка не всегда позволяла ставить метку точно в выстрел",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.28723356009070294,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.5005215419501133,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.6559183673469388,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 0.780453514739229,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.284557823129252,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.398208616780045,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.542834467120182,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.624263038548753,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.7115646258503405,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.81687074829932,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.210226757369615,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.350884353741496,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.632675736961451,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.798548752834467,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.40222604398137,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.462665729128557,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.57032186053758,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.691388879324586,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.76275215607895,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.884962042248533,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.9778859517395855,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.075464852607709,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.205767114359734,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.256360974257653,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.393242630385487,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.46591230231878,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.56652858842333,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.702789115646258,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.768049139197123,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.904872279213304,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.694447836737172,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 11.801979140130513,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 14.885714285714286,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.069682539682539,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.472766439909297,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    }
+  ]
+}

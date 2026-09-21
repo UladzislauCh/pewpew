@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "clip": "glock.mp4",
+  "slug": "glock-8e8eac4c",
+  "duration": 12.120816326530612,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-15T13:28:59.154Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.8762585034013606,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 4.0337868480725625,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 4.190861678004535,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 4.330113378684807,
+      "source": "own",
+      "weapon": "glock",
+      "hard": false
+    },
+    {
+      "time": 7.261043083900227,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.580816326530612,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.820272108843538,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 7.903764172335601,
+      "source": "own",
+      "weapon": "glock",
+      "hard": true
+    },
+    {
+      "time": 8.082562358276643,
+      "source": "own",
+      "weapon": "glock",
+      "hard": true
+    },
+    {
+      "time": 8.263492063492064,
+      "source": "own",
+      "weapon": "glock",
+      "hard": true
+    },
+    {
+      "time": 8.515827664399094,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.73077097505669,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    }
+  ]
+}

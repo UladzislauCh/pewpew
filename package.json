@@ -1,0 +1,45 @@
+{
+  "name": "pewpew",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22.22.0 <23.0.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && pnpm check:deps && vite build && tsx scripts/compressDist.ts",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "preview:compressed": "tsx scripts/previewCompressed.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx eval/run.ts",
+    "gen:weapon-templates": "tsx scripts/generateWeaponTemplates.ts",
+    "check:deps": "depcruise src --config .dependency-cruiser.cjs"
+  },
+  "dependencies": {
+    "i18next": "^26.3.6",
+    "mediabunny": "^1.51.0",
+    "onnxruntime-web": "^1.29.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-i18next": "^17.0.11",
+    "react-router": "^8.3.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "dependency-cruiser": "^18.3.1",
+    "oxlint": "^1.71.0",
+    "terser": "^5.51.2",
+    "tsx": "^4.23.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vitest": "^4.1.10"
+  }
+}

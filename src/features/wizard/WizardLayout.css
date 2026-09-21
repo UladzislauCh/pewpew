@@ -1,0 +1,496 @@
+.wizard {
+  position: relative;
+  width: 100%;
+  /* 768 is the decision from docs/HANDOFF-design.md: at this width the arsenal gets three
+     columns and prose stays at 62 characters. The old 640 was the “leave it as is” option. */
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: calc(50svh - 56px);
+  /* Top spacing comes from the step band. */
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+/* Full-width band continuing the header: same background, its own bottom border. */
+.wizard-steps-band {
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
+/* The column inside the band repeats the wizard's width and padding, otherwise the first
+   step won't line up vertically with the content below it. */
+.wizard-steps-band__inner {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.wizard__steps {
+  display: flex;
+  width: 100%;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*
+ * A step is marked by a BAR ON TOP, not a dot: the bar spans the full width of its share,
+ * so it shows not just “where am I” but how much lies behind and ahead. A dot can't show
+ * that — it looks the same on the first step and the last.
+ */
+.wizard__step {
+  flex: 1;
+  min-width: 0;
+  padding: 9px 0 8px;
+  border-top: 2px solid var(--border);
+  transition: border-color var(--dur) var(--ease-snap);
+}
+
+.wizard__step-label {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--text-muted);
+  transition: color var(--dur) var(--ease-snap);
+}
+
+.wizard__step-num {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
+}
+
+/* Done: the bar stands out from the background, the label is readable. Not green — “done”
+   means nothing here, the step is simply behind and can be returned to. */
+.wizard__step--done {
+  border-top-color: var(--border-strong);
+}
+
+.wizard__step--done .wizard__step-label {
+  color: var(--text);
+}
+
+.wizard__step--current {
+  border-top-color: var(--accent);
+}
+
+.wizard__step--current .wizard__step-label {
+  color: var(--accent);
+}
+
+/* Locked: beyond what's been reached. Muted as a whole, bar included. */
+.wizard__step--locked {
+  opacity: 0.45;
+}
+
+.wizard__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 8px 0 16px;
+}
+
+/*
+ * LEFT alignment, as in the mockup. A centred title with the back button pinned to the
+ * left edge needed 42% of the width as padding so a long title wouldn't run into the
+ * button — and on a narrow screen that padding ate the title.
+ */
+.wizard__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+/* Back sits ABOVE the title, not beside it: it's about leaving the screen, not its
+   name, and the title row is too cramped for it in any language. */
+.wizard__intro-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.wizard__back {
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: min(40%, 7.25rem);
+  min-height: 36px;
+  padding: 0 2px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-family: var(--mono);
+}
+
+.wizard__back:hover {
+  color: var(--accent);
+}
+
+/* Scale only, no translateY: it moved the button out from under the cursor between press
+   and release, and the click didn't always land — it hit whatever was under the
+   cursor AFTER the jump, not the button itself. */
+.wizard__back:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.wizard__back-arrow {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.wizard__back:hover .wizard__back-arrow {
+  color: var(--accent);
+}
+
+.wizard__title {
+  font-family: var(--display);
+  font-size: clamp(22px, 5.5vw, 28px);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.wizard__hint {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  /* 62 characters and NO centring: `margin: 0 auto` survived the alignment change
+     and kept the caption centred under a left-aligned title. */
+  max-width: 62ch;
+  margin: 0;
+}
+
+.wizard__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/*
+ * While the overlay is up, there may be no content at all — the marker-editing screen shows
+ * nothing until markers are ready. The overlay is absolutely positioned inside this block,
+ * so without a height of its own it would collapse to zero.
+ */
+.wizard__content--busy {
+  min-height: 320px;
+}
+
+.wizard__footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0 max(16px, env(safe-area-inset-bottom));
+  background: linear-gradient(to top, var(--bg) 65%, transparent);
+  margin-top: auto;
+}
+
+/*
+ * THE ONE SHAPE FOR EVERY ORANGE BUTTON IN THE PROJECT — per `.btn` in the mockup: flat
+ * `--accent` fill, square corners, regular non-caps text, `--sans` font. This used to be a
+ * bevelled gradient with clip-path (the old CS2-HUD style) — now `.recorder__start`,
+ * `.how-page__cta` and `.status-page__cta` look the same: one reference, differing
+ * only in size (this is the primary one, 50px/18px).
+ */
+.wizard__primary {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 50px;
+  border-radius: var(--radius);
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 0;
+  padding: 0 16px;
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+
+.wizard__primary:hover:not(:disabled) {
+  background: var(--accent-strong);
+}
+
+.wizard__primary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.wizard__primary--progress:disabled {
+  opacity: 1;
+  cursor: wait;
+  background: #1a1f2a;
+  color: var(--text-h);
+}
+
+/*
+ * The second answer — `.btn.ghost` from the mockup: same shape, but unfilled and smaller.
+ * “No, fix it” isn't orange: there's one orange button per screen, and that's the “yes”.
+ */
+.wizard__secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease-snap), color var(--dur) var(--ease-snap);
+}
+
+.wizard__secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--text-h);
+}
+
+.wizard__secondary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.wizard__footer-note {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* The fallback path is blue, like every reference link in the project. Never a button. */
+.wizard__footer-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--info);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Defuse-style progress fill */
+.wizard__primary-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 4px,
+      rgba(0, 0, 0, 0.12) 4px,
+      rgba(0, 0, 0, 0.12) 8px
+    ),
+    linear-gradient(90deg, #0d9488 0%, var(--defuse) 55%, #5eead4 100%);
+  transition: width 0.15s linear;
+  pointer-events: none;
+  box-shadow: inset 0 0 12px rgba(45, 212, 191, 0.35);
+}
+
+.wizard__primary-bar::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ecfdf5;
+  box-shadow: 0 0 8px var(--defuse);
+}
+
+.wizard__primary-label {
+  position: relative;
+  z-index: 1;
+}
+
+.wizard__panel {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.wizard__busy {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  background: rgba(10, 12, 16, 0.82);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+}
+
+.wizard__busy-label {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-family: var(--mono);
+}
+
+.wizard__spinner {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: wizard-spin 0.55s linear infinite;
+  box-shadow: 0 0 12px rgba(249, 115, 22, 0.35);
+}
+
+@keyframes wizard-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wizard__spinner {
+    animation: none;
+  }
+
+  .wizard__busy {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .wizard {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .wizard__step-label {
+    font-size: 11px;
+  }
+
+  .wizard__panel {
+    padding: 18px;
+  }
+}
+
+.wizard__panel--flush {
+  padding: 0;
+  overflow: hidden;
+}
+
+.wizard__panel--flush::before {
+  display: none;
+}
+
+.wizard__panel--flush .preview__video--compact {
+  border-radius: 0;
+  max-height: min(40vh, 300px);
+}
+
+.wizard__text-action {
+  width: 100%;
+  min-height: 44px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: var(--mono);
+}
+
+.wizard__text-action:hover {
+  color: var(--accent);
+}
+
+.card__error {
+  font-size: 13px;
+  color: var(--danger);
+  text-align: center;
+  padding: 10px 12px;
+  background: var(--danger-bg);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  border-radius: var(--radius);
+  font-family: var(--mono);
+}
+
+/*
+ * Rejection on the upload screen. Sits BELOW the zone, not inside it: the zone stays usable,
+ * and the next file is dropped in the same place without wondering where the error went.
+ */
+.upload-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 12px 0 0;
+  padding: 11px 12px;
+  border: 1px solid rgba(239, 68, 68, 0.45);
+  border-radius: var(--radius);
+  background: var(--danger-bg);
+  color: var(--text-h);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+/* An icon, not just colour: red alone tells nothing to someone
+   who can't distinguish it. */
+.upload-error__icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  margin-top: 1px;
+  color: var(--danger);
+}

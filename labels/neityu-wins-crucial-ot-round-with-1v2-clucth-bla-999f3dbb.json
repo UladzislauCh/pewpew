@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "clip": "Neityu WINS crucial OT round with 1v2 CLUCTH #blast #bounty #cs #cs2 #csgo.mp4",
+  "slug": "neityu-wins-crucial-ot-round-with-1v2-clucth-bla-999f3dbb",
+  "duration": 14.048072562358277,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T13:37:05.307Z",
+  "notes": "Счетчик от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.4690702947845806,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.570719,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.6782086167800454,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.764671201814059,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.8755269171523783,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 2.962993733402963,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 6.94250043306287,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.055277,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.167845804988662,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.263900118488732,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.360687703008997,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.5127604684712,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.685668934240363,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    }
+  ]
+}

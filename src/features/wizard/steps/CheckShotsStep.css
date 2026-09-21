@@ -1,0 +1,142 @@
+/*
+ * Check screen — `.counted` / `.swap` / `.playbar` / `.ask` from the mockup
+ * (docs/design/mockups.html, “03. Check”).
+ *
+ * All content in ONE block with its own padding: `.wizard__content` spaces its
+ * children with a 14-pixel gap, and that would add up with the margins inside — the same
+ * slip was already caught on the waiting screen and on the summary in “Loot”.
+ */
+.check-shots {
+  display: block;
+}
+
+/* “Found N shots”: a check mark icon, not just colour — the message is positive,
+   and green alone tells nothing to someone who can't tell it apart. */
+.check-shots__found {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.check-shots__found svg {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  color: var(--success);
+}
+
+/* What's in right now. The square is blue (`--info`), not accent: it's a message,
+   not an action, and the screen's orange is taken by the primary button. */
+.check-shots__swap {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.check-shots__swap i {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 2px;
+  background: var(--info);
+}
+
+.check-shots__swap b {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.check-shots__media {
+  margin-bottom: 12px;
+}
+
+/* One transport per screen, under the track: play circle, time, skip. */
+.check-shots__playbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 16px;
+}
+
+.check-shots__play {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--accent);
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.check-shots__play:hover {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+
+.check-shots__time {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.check-shots__time b {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.check-shots__skip {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg-panel);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.check-shots__skip:hover {
+  border-color: var(--accent);
+  color: var(--text-h);
+}
+
+/* A question instead of instructions: the screen asks rather than explaining gestures. */
+.check-shots__ask {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+}
+
+.check-shots__ask b {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-h);
+}
+
+.check-shots__ask span {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}

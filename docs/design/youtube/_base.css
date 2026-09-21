@@ -1,0 +1,22 @@
+/* Шапка YouTube: 2560×1440. Всё важное — в безопасной зоне 1546×423 по центру:
+   только она видна на всех устройствах. Полоса 2560×423 — то, что видно на десктопе. */
+:root {
+  --bg: #0a0c10; --elevated: #12151c; --panel: #171b24; --border: #2a3140; --border-strong: #3d4659;
+  --text: #c5cad6; --text-h: #f2f4f8; --muted: #8b93a7; --accent: #f97316;
+  --display: 'Rajdhani', 'IBM Plex Sans', sans-serif; --sans: 'IBM Plex Sans', sans-serif; --mono: 'IBM Plex Mono', monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 2560px; height: 1440px; overflow: hidden; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+.canvas { position: relative; width: 2560px; height: 1440px; overflow: hidden; }
+.safe { position: absolute; left: 507px; top: 508px; width: 1546px; height: 423px; display: flex; align-items: center; }
+/* Курица — верхняя часть картинки логотипа, без нарисованной надписи pewpew (563 из 670 точек). */
+.chicken { flex: 0 0 auto; overflow: hidden; }
+.chicken img { display: block; width: 100%; height: auto; }
+.wordmark { font-family: var(--display); font-weight: 700; letter-spacing: 0.02em; line-height: 0.9; color: var(--text-h); margin: 0; text-transform: lowercase; }
+.wordmark b { color: var(--accent); font-weight: 700; }
+.tagline { font-family: var(--sans); font-weight: 500; color: var(--text); margin: 0; }
+.chip { font-family: var(--mono); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+/* Разметка для проверки: ?guides показывает безопасную зону и полосу десктопа. */
+.guides .g-desktop { position: absolute; left: 0; top: 508px; width: 2560px; height: 423px; outline: 4px dashed rgba(91,155,213,.8); z-index: 50; }
+.guides .g-safe { position: absolute; left: 507px; top: 508px; width: 1546px; height: 423px; outline: 4px solid rgba(163,230,53,.9); z-index: 51; }
+.guides .g-label { position: absolute; font: 600 28px/1 var(--mono); padding: 6px 10px; background: rgba(0,0,0,.7); z-index: 52; }

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "clip": "scar20.mp4",
+  "slug": "scar20-beca1553",
+  "duration": 13.049614512471654,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-07-29T13:44:32.725Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 1.3565759637188208,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 1.6453061224489796,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 4.927573696145124,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 5.190408163265306,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 5.4543764172335605,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 5.674172335600907,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 7.7319727891156464,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 7.981836734693878,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 8.257959183673469,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 8.475873015873017,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 9.062040816326531,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.35344671201814,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 9.587845804988662,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    },
+    {
+      "time": 10.391428571428571,
+      "source": "own",
+      "weapon": "scar20",
+      "hard": false
+    }
+  ]
+}

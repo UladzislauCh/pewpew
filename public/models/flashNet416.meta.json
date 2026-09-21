@@ -1,0 +1,26 @@
+{
+ "imgsz": 416,
+ "input": {
+  "name": "images",
+  "shape": [
+   1,
+   3,
+   416,
+   416
+  ]
+ },
+ "output": {
+  "name": "output0",
+  "shape": [
+   1,
+   8,
+   3549
+  ]
+ },
+ "names": {
+  "0": "muzzle_flash",
+  "1": "tracer",
+  "2": "zoom_flash",
+  "3": "zoom_tracer"
+ }
+}

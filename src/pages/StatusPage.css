@@ -1,0 +1,148 @@
+.status-page {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 28px 16px max(64px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.status-page__mascot {
+  width: min(120px, 32vw);
+  margin-bottom: 4px;
+}
+
+.status-page__chicken {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.status-page__code {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: clamp(48px, 14vw, 72px);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  /* Border colour, not the accent: there is one orange per screen, and the button has it.
+     A big orange number competed with it for attention while offering nothing. */
+  color: var(--border-strong);
+  user-select: none;
+}
+
+.status-page__title {
+  margin: 4px 0 0;
+  font-family: var(--display);
+  font-size: clamp(28px, 6vw, 36px);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--text-h);
+}
+
+.status-page__lead {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  max-width: 28em;
+}
+
+.status-page__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.status-page__cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 16px;
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent-fg);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: var(--accent);
+  cursor: pointer;
+  transition:
+    background var(--dur) var(--ease-snap),
+    transform var(--dur) var(--ease-snap),
+    color var(--dur) var(--ease-snap),
+    border-color var(--dur) var(--ease-snap);
+}
+
+.status-page__cta:hover {
+  background: var(--accent-strong);
+}
+
+.status-page__cta:active {
+  transform: translateY(1px) scale(0.985);
+}
+
+.status-page__cta--ghost {
+  color: var(--text-h);
+  background: transparent;
+  box-shadow: none;
+  border-color: var(--border-strong);
+}
+
+.status-page__cta--ghost:hover {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+  box-shadow: none;
+}
+
+.status-page__report {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* The fallback path is blue, like every reference link in the project. */
+.status-page__report-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--info);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 640px) {
+  .status-page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .status-page__mascot {
+    width: 130px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-page__cta {
+    transition: none;
+  }
+
+  .status-page__cta:active {
+    transform: none;
+  }
+}

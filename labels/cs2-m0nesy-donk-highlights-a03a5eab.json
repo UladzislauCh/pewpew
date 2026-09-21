@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "clip": "голый король #cs2 #m0nesy #donk #highlights.mp4",
+  "slug": "cs2-m0nesy-donk-highlights-a03a5eab",
+  "duration": 17.531065759637187,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-15T12:31:10.620Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.033605442176871,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 4.165192743764172,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.255102040816326,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.370748299319728,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.452471655328798,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.517301587301588,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.572290249433107,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.6866439909297055,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.7543083900226755,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.861746031746032,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.960204081632653,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.068412698412699,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.160385487528345,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.261360544217687,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.324716553287982,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.0921768707482995,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.180408163265306,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 6.296439909297052,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": true
+    },
+    {
+      "time": 6.355102040816327,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.385668934240362,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    },
+    {
+      "time": 9.197913832199546,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.348843537414966,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 13.978616780045352,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 15.559954648526077,
+      "source": "own",
+      "weapon": "deagle",
+      "hard": false
+    }
+  ]
+}

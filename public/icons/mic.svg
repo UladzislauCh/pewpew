@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+  <path
+    fill="#f97316"
+    d="M16 3.5c-2.9 0-5.2 2.3-5.2 5.2v7.1c0 2.9 2.3 5.2 5.2 5.2s5.2-2.3 5.2-5.2V8.7c0-2.9-2.3-5.2-5.2-5.2Z"
+  />
+  <path
+    stroke="#f97316"
+    stroke-width="2"
+    stroke-linecap="square"
+    d="M7.5 14.5v1.2c0 4.7 3.8 8.5 8.5 8.5s8.5-3.8 8.5-8.5v-1.2"
+  />
+  <path stroke="#f97316" stroke-width="2" stroke-linecap="square" d="M16 24.2V28.5M11 28.5h10" />
+</svg>

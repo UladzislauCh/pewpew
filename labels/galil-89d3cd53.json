@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "clip": "galil.mp4",
+  "slug": "galil-89d3cd53",
+  "duration": 31.834557823129252,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-15T13:27:24.711Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.1918820861678006,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.4448072562358276,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.620181405895692,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.9531292517006804,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.046394557823129,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.137981859410431,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.221768707482993,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.318707482993197,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.406190476190476,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.659297052154195,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 4.7634467120181405,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 5.477641723356009,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.455419501133786,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 8.513990929705216,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 8.620476190476191,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 8.702471655328798,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 8.792471655328798,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 17.145011337868482,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 23.214013605442176,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 23.43297052154195,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 23.572358276643993,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 28.127256235827666,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    },
+    {
+      "time": 28.34848072562358,
+      "source": "own",
+      "weapon": "galil",
+      "hard": false
+    }
+  ]
+}

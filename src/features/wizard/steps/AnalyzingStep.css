@@ -1,0 +1,182 @@
+/*
+ * The waiting screen's content is one block with ITS OWN spacing.
+ *
+ * `.wizard__content` is a column with a 14-pixel gap between children. While the elements
+ * were its direct children, the gap added up with the margins inside, and every gap came
+ * out exactly 14 larger than the mockup: 32 instead of 18, 30 instead of 16, 23 instead of 9.
+ */
+.analyzing {
+  display: flex;
+  flex-direction: column;
+  /* The wizard column puts 14 pixels between header and content, while the mockup has 18
+     between the caption and the phases. The difference is made up here. */
+  padding-top: 4px;
+}
+
+/* Screen caption: name and duration on one line. */
+.analyzing__file {
+  display: flex;
+  align-items: baseline;
+  /* The gap is set here: whitespace between flex items collapses,
+     and the name ran into the separator. */
+  gap: 6px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+/* ONLY the name truncates: the duration comes after it and must stay visible. */
+.analyzing__file-name {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.analyzing__file-time {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.analyzing__phases {
+  display: grid;
+  gap: 1px;
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.analyzing__phase {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 14px;
+  background: var(--bg-panel);
+}
+
+.analyzing__icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+
+.analyzing__phase-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 13.5px;
+}
+
+.analyzing__phase-value {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.analyzing__phase--done .analyzing__icon {
+  color: var(--success);
+}
+
+.analyzing__phase--done .analyzing__phase-name {
+  color: var(--text);
+}
+
+.analyzing__phase--run .analyzing__icon {
+  color: var(--accent);
+}
+
+.analyzing__phase--run .analyzing__phase-name {
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.analyzing__phase--run .analyzing__phase-value {
+  color: var(--accent);
+}
+
+/* A pending phase is muted as a whole: it isn't “disabled”, it just hasn't started yet. */
+.analyzing__phase--wait {
+  opacity: 0.45;
+}
+
+.analyzing__phase--wait .analyzing__icon {
+  color: var(--text-muted);
+}
+
+.analyzing__icon--spin {
+  animation: analyzing-spin 1.6s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes analyzing-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Respect the system setting: the spin is decoration, not a message.
+   The phase is clear without it from colour, label and percentage. */
+@media (prefers-reduced-motion: reduce) {
+  .analyzing__icon--spin {
+    animation: none;
+  }
+}
+
+.analyzing__bar {
+  height: 3px;
+  margin-bottom: 4px;
+  background: var(--bg-panel);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.analyzing__bar i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  /* The timer ticks every 100 ms; the transition smooths the steps between ticks. */
+  transition: width 120ms linear;
+}
+
+.analyzing__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 18px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Cancel isn't the primary action: it's secondary by meaning and so not orange.
+ * But it isn't hidden either: a long wait with no way out is a trap.
+ */
+.analyzing__cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease-snap), color var(--dur) var(--ease-snap);
+}
+
+.analyzing__cancel:hover {
+  border-color: var(--danger);
+  color: var(--text-h);
+}

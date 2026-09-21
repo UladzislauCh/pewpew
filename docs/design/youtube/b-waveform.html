@@ -1,0 +1,43 @@
+<meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=IBM+Plex+Sans:wght@500;600&family=IBM+Plex+Mono:wght@500;600&display=block"><link rel="stylesheet" href="_base.css">
+<style>
+  .canvas { background: linear-gradient(180deg, #0b0d12 0%, var(--bg) 50%, #07090c 100%); }
+  svg.wave { position:absolute; left:0; top: 470px; width: 2560px; height: 500px; }
+  .safe { justify-content: center; gap: 56px; }
+  .plate { display:flex; align-items:center; gap: 56px; padding: 34px 70px 34px 50px; background: rgba(10,12,16,.9); border: 2px solid var(--border); border-radius: 6px; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+  .chicken { width: 250px; height: 293px; }
+  .wordmark { font-size: 150px; }
+  .tagline { font-size: 46px; margin-top: 22px; color: var(--text-h); }
+  .sub { margin: 14px 0 0; font: 500 30px/1.3 var(--mono); color: var(--muted); letter-spacing: .04em; }
+</style>
+<div class="canvas">
+  <svg class="wave" viewBox="0 0 2560 500" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="safe">
+    <div class="plate">
+      <div class="chicken"><img src="../../../public/pewpew-logo.png" alt=""></div>
+      <div>
+        <h1 class="wordmark">pewpew<b>.baby</b></h1>
+        <p class="tagline">Every gunshot. Replaced with a meme.</p>
+        <p class="sub">CS2 highlights · right in your browser</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  // A deterministic "audio track": a background of silence and shot peaks. Above the peaks are
+  // meme markers, like on the pewpew editor track. The peaks are spaced so that the markers
+  // in the middle do not slip under the title plate.
+  const svg = document.querySelector('svg.wave'), W = 2560, H = 500, mid = 250;
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const shots = [110, 260, 330, 470, 2090, 2180, 2330, 2450];
+  const memes = ['BONK', 'BRUH', 'QUACK', 'BOING', 'MEOW', 'BONK', 'OOF', 'HONK'];
+  const amp = x => { let a = 14 + rnd() * 14; for (const s of shots) { const d = Math.abs(x - s); if (d < 60) a = Math.max(a, 190 * Math.exp(-d / 22) + rnd() * 20); } return a; };
+  let upper = '', bot = '';
+  for (let x = 0; x <= W; x += 8) { const a = amp(x); upper += (x ? ' L' : 'M') + x + ' ' + (mid - a); bot = ' L' + x + ' ' + (mid + a) + bot; }
+  let html = '<path d="' + upper + bot + ' Z" fill="#3d4659" opacity=".55"/>';
+  shots.forEach((s, i) => {
+    html += '<line x1="' + s + '" x2="' + s + '" y1="40" y2="460" stroke="#f97316" stroke-width="5"/>';
+    html += '<circle cx="' + s + '" cy="40" r="11" fill="#f97316"/>';
+    html += '<text x="' + s + '" y="20" fill="#f97316" font-family="IBM Plex Mono" font-weight="600" font-size="30" text-anchor="middle" letter-spacing="2">' + memes[i] + '</text>';
+  });
+  svg.innerHTML = html;
+</script><script>if(location.search.includes("guides")){const c=document.querySelector(".canvas");c.classList.add("guides");c.insertAdjacentHTML("beforeend",`<div class="g-desktop"></div><div class="g-safe"></div><div class="g-label" style="left:12px;top:462px;color:#5b9bd5">desktop 2560×423</div><div class="g-label" style="left:517px;top:942px;color:#a3e635">safe · all devices 1546×423</div>`)}</script>

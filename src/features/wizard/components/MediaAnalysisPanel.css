@@ -1,0 +1,39 @@
+.analysis {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  font-size: 13px;
+  font-family: var(--mono);
+}
+
+.analysis--loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-muted);
+}
+
+.analysis--error p {
+  color: var(--danger);
+}
+
+.analysis__spinner {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  animation: analysis-spin 0.55s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes analysis-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .analysis__spinner {
+    animation: none;
+  }
+}

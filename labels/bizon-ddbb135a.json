@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "clip": "bizon.mp4",
+  "slug": "bizon-ddbb135a",
+  "duration": 15.905668934240364,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T11:52:15.612Z",
+  "notes": "Есть перезарядка",
+  "complete": true,
+  "shots": [
+    {
+      "time": 0.432832,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.5326139571839259,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.5996983978069098,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.6580161816980648,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.7600090063470674,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.842269,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.8938410540954249,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 0.9705040032304701,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.0325623805483621,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.1547485611094273,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.252857142857143,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.3371428571428572,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.3996371882086167,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.4615419501133786,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.5652607709750568,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.6424489795918367,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.732267573696145,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.8360317460317461,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.8813378684807256,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 1.9844444444444445,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.031814058956916,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.1304761904761906,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.193339801943769,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.240441,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.360544217687075,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 2.4272183286063393,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 4.127936507936508,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.247755102040816,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.348616780045352,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.405034013605442,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.448412698412699,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.544988662131519,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.651609977324263,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.740204081632653,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.862562358276644,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.92907029478458,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.019614512471655,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 5.099569160997732,
+      "source": "enemy",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.166235827664399,
+      "source": "enemy",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.222244897959183,
+      "source": "enemy",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.3323868628108695,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.42446,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.514648526077098,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.569554,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.609747399701558,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.746439909297052,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.819637188208617,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 5.859031819435706,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.05834,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.134002,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.208231292517008,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.256032558440399,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.378836810110851,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.436068822148139,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.49695709509831,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.594885596846138,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.689618987706131,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.732532291465658,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.826784768728098,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.899070035154473,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 9.98342,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.07016328230502,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.126812268953493,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.291176019667079,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.386699953427154,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.463797649757785,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.530068202286024,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.642229770164104,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.706612901518394,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.804673160416236,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.852464772655027,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 10.940351,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.030669611977572,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.107148049703138,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.166702,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.266323862634927,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.343718820861678,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.433219954648527,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.501587301587302,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.56576833747151,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.662526,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.74031362195242,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    },
+    {
+      "time": 11.82715089864819,
+      "source": "own",
+      "weapon": "bizon",
+      "hard": false
+    }
+  ]
+}

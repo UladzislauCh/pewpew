@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "clip": "DONK INSANE 1v5 ACE CLUTCH vs HEROIC @ Perfect World Shanghai Major 2024 #shorts #cs2.mp4",
+  "slug": "donk-insane-1v5-ace-clutch-vs-heroic-perfect-wor-62e73241",
+  "duration": 21.31591836734694,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-13T13:09:34.853Z",
+  "complete": true,
+  "shots": [
+    {
+      "time": 3.252063492063492,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.3750113378684805,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.4622902494331065,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.576077097505669,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.6672562358276646,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.7759410430839004,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.8576643990929704,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.877732426303855,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 4.105918367346939,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 4.217074829931973,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 4.360952380952381,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 4.477074829931973,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 7.6702721088435375,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 8.213990929705215,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 8.467460317460317,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.603786848072563,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.69639455782313,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 9.893809523809523,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 10.72469387755102,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 11.013356009070295,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 11.74702947845805,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 11.836077097505669,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 11.973718820861677,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": false
+    },
+    {
+      "time": 17.04201814058957,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.11809523809524,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.220839002267574,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.35138321995465,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.4902947845805,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.668344671201815,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 17.88095238095238,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 18.0659410430839,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    },
+    {
+      "time": 18.2137641723356,
+      "source": "own",
+      "weapon": "ak47",
+      "hard": true
+    }
+  ]
+}

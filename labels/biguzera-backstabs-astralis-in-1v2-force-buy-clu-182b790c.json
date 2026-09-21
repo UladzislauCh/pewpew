@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "clip": "Biguzera BACKSTABS Astralis in 1v2 Force Buy CLUTCH #blast #bounty #cs #cs2 #csgo.mp4",
+  "slug": "biguzera-backstabs-astralis-in-1v2-force-buy-clu-182b790c",
+  "duration": 21.826757369614512,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T11:00:21.387Z",
+  "notes": "Тут есть смена оружия. И есть момент, где счетчик патронов меняется сразу на 2. Сам счетчик не от игры, а от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.4681179138321996,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 2.628299319727891,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 2.7774603174603176,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 2.9313832199546486,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 3.158344671201814,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": false
+    },
+    {
+      "time": 3.869795918367347,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 3.955578231292517,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 4.112086167800453,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 4.274761904761904,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 4.423854875283447,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 4.611587301587302,
+      "source": "own",
+      "weapon": "five_seven",
+      "hard": true
+    },
+    {
+      "time": 6.0298185941043085,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 9.855396825396825,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.06278911564626,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.245260770975056,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 10.405895691609977,
+      "source": "enemy",
+      "weapon": null,
+      "hard": false
+    },
+    {
+      "time": 11.26271050272915,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.375396825396825,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.466306,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.532000871343152,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.596305,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.660623,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 11.722214508091836,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 12.076145124716554,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 12.187037478198844,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 12.230743567506517,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.19371882086168,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.318830539006278,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.37495673819876,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.465658722104443,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.556552,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.597833,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.724761904761905,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.768515,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.879009680632006,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    },
+    {
+      "time": 16.93038,
+      "source": "own",
+      "weapon": "mp9",
+      "hard": false
+    }
+  ]
+}

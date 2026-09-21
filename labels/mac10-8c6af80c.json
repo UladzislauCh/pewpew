@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "clip": "mac10.mp4",
+  "slug": "mac10-8c6af80c",
+  "duration": 9.520181405895691,
+  "sampleRate": 44100,
+  "numberOfChannels": 2,
+  "labeledAt": "2026-08-25T12:51:38.097Z",
+  "notes": "Слышны звуки комментаторов и арены. Смена оружия. Счетчик от трансляции",
+  "complete": true,
+  "shots": [
+    {
+      "time": 2.406131,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 2.531126,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 2.636122,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 2.671115,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 2.771111,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 2.80611,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.308503,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.4238025676721726,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.483316,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.568309,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 3.633304,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.528334672316637,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.624489795918367,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.692818168378317,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.804897959183673,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.870204081632653,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 4.92390022675737,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 5.026712018140589,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 5.089374,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 5.133276,
+      "source": "own",
+      "weapon": "mac10",
+      "hard": false
+    },
+    {
+      "time": 6.666326530612245,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 6.722517006802721,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 6.797165532879818,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 6.894943310657596,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 6.9578231292517,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 6.996190476190476,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 7.085895691609977,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 7.1079138321995465,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 7.29281179138322,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    },
+    {
+      "time": 7.380068027210885,
+      "source": "own",
+      "weapon": "m4a1s",
+      "hard": false
+    }
+  ]
+}

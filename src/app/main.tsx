@@ -6,8 +6,6 @@ import '../shared/ui/index.css'
 import App from './App.tsx'
 import { setupAnalytics } from './analytics'
 
-// inject()
-
 // Analytics is wired up BEFORE render, and only when VITE_GA_ID is set (ADR 0011).
 setupAnalytics()
 

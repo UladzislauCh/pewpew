@@ -247,10 +247,13 @@
   .ftr { border-top: 1px solid var(--border); background: var(--bg-elevated); padding: 20px 18px 18px; }
   .ftr-top { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
   .ftr-note { font-size: 12.5px; color: var(--text-muted); line-height: 1.5; max-width: 30ch; }
-  .ftr-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 16px; }
+  .ftr-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 18px; margin-bottom: 16px; }
   .ftr-cols h4 { font: 600 10px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--text-muted); margin: 0 0 10px; }
   .ftr-cols a { display: block; font-size: 13.5px; color: var(--text); text-decoration: none; padding: 5px 0; }
+  .ftr-cols .soc a { display: flex; align-items: center; gap: 8px; }
+  .ftr-cols .soc svg { flex: none; color: var(--text-muted); }
+  .ftr-cols a.focus { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--radius-sm); }
   .ftr-bot { display: flex; align-items: center; gap: 10px; padding-top: 14px; border-top: 1px solid var(--border);
     font: 500 11px/1.4 var(--mono); color: var(--text-muted); }
   .ftr-bot .sp { flex: 1; }
@@ -799,7 +802,8 @@
       <h2>How it works</h2>
       <p>The copy is taken from <b>shared/i18n/locales/ru.json</b>, not invented. The four steps are numbered because it really is a sequence: the order carries meaning.</p>
       <p>The limits are gathered in one line at the bottom — it is the same list as in the upload zone, and it must read the same in both places.</p>
-      <dl><dt>Source</dt><dd>key <code style="font-family:var(--mono);font-size:11px">how.steps</code></dd><dt>Bottom</dt><dd>the "Upload a highlight" button</dd></dl>
+      <p>The footer gained a third column, "Соцсети" / "Social": YouTube and TikTok, icon plus name, opened in a new tab. It stands apart from "Обратная связь" — these lead off the site, those lead into the form. The columns are laid out with auto-fit, so on the 300 px screens (section 10) the third one simply drops to its own row; the focus ring on a social link is shown in section 08.</p>
+      <dl><dt>Source</dt><dd>key <code style="font-family:var(--mono);font-size:11px">how.steps</code></dd><dt>Bottom</dt><dd>the "Upload a highlight" button</dd><dt>Social</dt><dd>youtube.com/@pewpew_baby · tiktok.com/@pewpew.baby</dd></dl>
     </div>
     <div class="screen">
       <div class="hdr">
@@ -838,6 +842,11 @@
             <a href="#">Сообщить об ошибке</a>
             <a href="#">Предложить звук</a>
             <a href="#">Написать нам</a>
+          </div>
+          <div class="soc">
+            <h4>Соцсети</h4>
+            <a href="https://www.youtube.com/@pewpew_baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg><span>YouTube</span></a>
+            <a href="https://www.tiktok.com/@pewpew.baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.7 5.8a4.9 4.9 0 0 1-1.1-1 5 5 0 0 1-1.2-2.6h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9.3a6.2 6.2 0 1 0 5.4 6.2V8.8a8.2 8.2 0 0 0 4.8 1.5V7a4.9 4.9 0 0 1-2.5-1.2z"/></svg><span>TikTok</span></a>
           </div>
         </div>
         <div class="ftr-bot">
@@ -900,6 +909,11 @@
             <a href="#">Сообщить об ошибке</a>
             <a href="#">Предложить звук</a>
             <a href="#">Написать нам</a>
+          </div>
+          <div class="soc">
+            <h4>Соцсети</h4>
+            <a href="https://www.youtube.com/@pewpew_baby" class="focus" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg><span>YouTube</span></a>
+            <a href="https://www.tiktok.com/@pewpew.baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.7 5.8a4.9 4.9 0 0 1-1.1-1 5 5 0 0 1-1.2-2.6h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9.3a6.2 6.2 0 1 0 5.4 6.2V8.8a8.2 8.2 0 0 0 4.8 1.5V7a4.9 4.9 0 0 1-2.5-1.2z"/></svg><span>TikTok</span></a>
           </div>
         </div>
         <div class="ftr-bot">
@@ -1195,6 +1209,11 @@
             <a href="#">Предложить звук</a>
             <a href="#">Написать нам</a>
           </div>
+          <div class="soc">
+            <h4>Соцсети</h4>
+            <a href="https://www.youtube.com/@pewpew_baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg><span>YouTube</span></a>
+            <a href="https://www.tiktok.com/@pewpew.baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.7 5.8a4.9 4.9 0 0 1-1.1-1 5 5 0 0 1-1.2-2.6h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9.3a6.2 6.2 0 1 0 5.4 6.2V8.8a8.2 8.2 0 0 0 4.8 1.5V7a4.9 4.9 0 0 1-2.5-1.2z"/></svg><span>TikTok</span></a>
+          </div>
         </div>
         <div class="ftr-bot">
           <span>© 2026 pewpew</span>
@@ -1236,6 +1255,11 @@
             <a href="#">Сообщить об ошибке</a>
             <a href="#">Предложить звук</a>
             <a href="#">Написать нам</a>
+          </div>
+          <div class="soc">
+            <h4>Соцсети</h4>
+            <a href="https://www.youtube.com/@pewpew_baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg><span>YouTube</span></a>
+            <a href="https://www.tiktok.com/@pewpew.baby" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.7 5.8a4.9 4.9 0 0 1-1.1-1 5 5 0 0 1-1.2-2.6h-3.3v13.2a2.9 2.9 0 1 1-2.1-2.8V9.3a6.2 6.2 0 1 0 5.4 6.2V8.8a8.2 8.2 0 0 0 4.8 1.5V7a4.9 4.9 0 0 1-2.5-1.2z"/></svg><span>TikTok</span></a>
           </div>
         </div>
         <div class="ftr-bot">

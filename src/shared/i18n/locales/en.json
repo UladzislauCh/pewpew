@@ -25,7 +25,9 @@
     "reportBug": "Report a bug",
     "suggestSound": "Suggest a sound",
     "writeUs": "Write to us",
-    "feedbackAria": "Feedback"
+    "feedbackAria": "Feedback",
+    "social": "Social",
+    "socialAria": "Find us on social"
   },
   "how": {
     "title": "How it works",

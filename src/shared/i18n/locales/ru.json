@@ -25,7 +25,9 @@
     "reportBug": "Сообщить об ошибке",
     "suggestSound": "Предложить звук",
     "writeUs": "Написать нам",
-    "feedbackAria": "Обратная связь"
+    "feedbackAria": "Обратная связь",
+    "social": "Соцсети",
+    "socialAria": "Мы в соцсетях"
   },
   "how": {
     "title": "Как это работает",

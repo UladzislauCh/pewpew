@@ -75,6 +75,7 @@ Numbering matches the page's sections.
 | 04 | Sound | The step turns from "pick" into "swap": a meme is already in. Three sources as tabs, the arsenal visible right away; each sound has its own duration |
 | 05 | Done | A summary in three numbers; the slider is labelled with its effect ("the shot's tail is audible"), not its mechanism |
 | 06 | Menu | On wide screens a row in the header, on narrow a panel from the top, 52 px items |
+| 06 | Footer | A third column, «Соцсети» / "Social": YouTube and TikTok, icon plus name, new tab. Kept apart from «Обратная связь» — social links lead off the site, feedback leads into the form. The columns are `auto-fit, minmax(118px, 1fr)`, so at 300 px they stay two wide and the social one drops to a second row. Links: `youtube.com/@pewpew_baby`, `tiktok.com/@pewpew.baby` |
 | 07 | How it works | Four steps are numbered: the order carries meaning. The limits are the same as in the upload zone |
 | 08 | FAQ | Collapsed, the first one open; expands on the whole row; a way out to feedback at the bottom |
 | 09 | Feedback | A popup over the current screen, the topic as a list, the form adapts to the topic. Submitted to Web3Forms from the browser, the response is read. Email is optional everywhere. The first iteration has no technical context: only topic, text, link and email |

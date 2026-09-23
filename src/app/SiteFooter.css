@@ -50,10 +50,12 @@
   transition: color var(--dur) var(--ease-snap);
 }
 
-/* Two columns side by side even on a phone: three short items each fit fine. */
+/* Two columns side by side even on a phone: three short items each fit fine.
+   The third one, social, does not always fit next to them — auto-fit lets it drop
+   to its own row on a narrow screen instead of squeezing “Report a bug” to one word per line. */
 .site-footer__cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
   gap: 18px;
   margin-bottom: 20px;
 }
@@ -84,6 +86,29 @@
   text-decoration: none;
   font-size: 14px;
   transition: color var(--dur) var(--ease-snap);
+}
+
+/* Social links carry an icon: the brand is recognised by the glyph faster than by the word.
+   The icon is muted, the word is not — otherwise the row reads as disabled. */
+.site-footer__nav--social .site-footer__link {
+  gap: 8px;
+}
+
+.site-footer__icon {
+  flex: none;
+  color: var(--text-muted);
+  transition: color var(--dur) var(--ease-snap);
+}
+
+.site-footer__link:hover .site-footer__icon {
+  color: var(--accent);
+}
+
+/* A visible focus ring: the footer is the end of the keyboard path across the page. */
+.site-footer__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
 }
 
 /* Feedback items are buttons that open the popup, but look like links. */
@@ -134,9 +159,12 @@ button.site-footer__link {
     align-self: start;
   }
 
+  /* On a wide screen the nav column is content-sized, so auto-fit has no width to
+     divide: the three columns are set explicitly. */
   .site-footer__cols {
     grid-area: nav;
-    column-gap: 48px;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 40px;
   }
 
   .site-footer__bottom {

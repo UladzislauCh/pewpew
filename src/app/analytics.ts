@@ -17,6 +17,22 @@ declare global {
   }
 }
 
+/**
+ * The queue entry must be the `arguments` object, not an array.
+ *
+ * gtag.js reads every `dataLayer` entry as `arguments`: it checks `length` and takes
+ * the command out of `[0]`, but an `Array` is rejected by its type check, so `js` and
+ * `config` are dropped without a word and no request to `/g/collect` is ever made.
+ * The official snippet is `function gtag(){dataLayer.push(arguments)}` — hence a
+ * function declaration here instead of a rest-parameter arrow. Do not “modernise” it.
+ */
+function gtagImpl(): void {
+  // oxlint-disable-next-line prefer-rest-params -- see the comment above: must be `arguments`
+  window.dataLayer?.push(arguments)
+}
+
+const gtag = gtagImpl as (...args: unknown[]) => void
+
 export function setupAnalytics(id: string = GA_ID ?? ''): void {
   if (id.trim() === '') return
   if (document.querySelector('script[data-ga]')) return
@@ -27,12 +43,9 @@ export function setupAnalytics(id: string = GA_ID ?? ''): void {
   script.dataset.ga = id
   document.head.appendChild(script)
 
-  // The gtag queue is a plain array of arguments: once loaded, the script drains it
-  // itself, so early events aren't lost while it's still on the wire.
+  // The queue is filled before the script arrives: once loaded, gtag.js drains it
+  // itself, so early commands aren't lost while it's still on the wire.
   window.dataLayer = window.dataLayer ?? []
-  const gtag = (...args: unknown[]) => {
-    window.dataLayer?.push(args)
-  }
   gtag('js', new Date())
   gtag('config', id)
 }

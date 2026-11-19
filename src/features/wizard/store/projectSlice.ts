@@ -14,6 +14,7 @@
  * in the component, and the URL lived exactly as long as the component did.
  */
 import type { StateCreator } from 'zustand'
+import { trackEvent } from '../../../shared/analytics/track'
 import {
   isMediaValidationError,
   isVideoDurationAllowed,
@@ -65,6 +66,25 @@ const DEMUX_PROBLEM: Record<MediaValidationCode, ProjectProblem> = {
   audioDuration: 'analysis',
 }
 
+/**
+ * Rejection reason → the value of the `reason` parameter in the `video_rejected` event.
+ *
+ * An EXPLICIT table, as ADR 0014 requires, and not `${problem}`: the TS union is camelCase,
+ * GA4's convention is snake_case, and the two are allowed to drift apart on purpose — the
+ * reports' vocabulary is not the code's vocabulary. Being exhaustive is the other half: a
+ * new `ProjectProblem` breaks the build here instead of quietly putting a camelCase value
+ * into a year of statistics, where it would read as a second, separate reason.
+ */
+const PROBLEM_REASON: Record<ProjectProblem, string> = {
+  type: 'type',
+  size: 'size',
+  duration: 'duration',
+  tooLarge: 'too_large',
+  audioTooHeavy: 'audio_too_heavy',
+  noAudio: 'no_audio',
+  analysis: 'analysis',
+}
+
 export interface ProjectSlice {
   /** The chosen clip. `null` — the project is empty. */
   videoFile: File | null
@@ -102,6 +122,29 @@ export const createProjectSlice: StateCreator<ProjectState, [], [], ProjectState
     if (videoUrl) URL.revokeObjectURL(videoUrl)
   }
 
+  /**
+   * THE ONE WAY a rejection reason gets into state — and therefore the one place that
+   * reports it (ADR 0014).
+   *
+   * `rejectVideo` looks like that funnel and isn't: it covers only `type` and `size`, the
+   * two the drop zone finds before the clip becomes a project. The other five reasons are
+   * decided inside `analyzeProject` — the duration net, the missing audio, the demux code
+   * table. Instrumenting the obvious-looking place would under-report exactly the
+   * interesting failures, and the statistics would claim the only broken clips are the ones
+   * rejected at the door.
+   *
+   * CALLERS INSIDE `analyzeProject` MUST CHECK `stale()` FIRST. A superseded run writes
+   * nothing, and must likewise report nothing: the person already picked another clip, and
+   * a rejection they never saw is not a rejection.
+   *
+   * `patch` carries whatever goes into the same `set` as the reason (in practice
+   * `isAnalyzing: false`), so the component still sees one state change, not two.
+   */
+  const fail = (problem: ProjectProblem, patch?: Partial<ProjectState>) => {
+    set({ ...patch, analysisProblem: problem })
+    trackEvent('video_rejected', { reason: PROBLEM_REASON[problem] })
+  }
+
   return {
     videoFile: null,
     videoUrl: null,
@@ -121,7 +164,7 @@ export const createProjectSlice: StateCreator<ProjectState, [], [], ProjectState
       }))
     },
 
-    rejectVideo: (problem) => set({ analysisProblem: problem }),
+    rejectVideo: (problem) => fail(problem),
 
     clearProject: () => {
       dropUrl()
@@ -150,7 +193,7 @@ export const createProjectSlice: StateCreator<ProjectState, [], [], ProjectState
         // Duration is also checked inside analysis, before audio decoding. This is a cheap
         // safety net in case a file gets there bypassing that check.
         if (!isVideoDurationAllowed(result.duration)) {
-          set({ analysisProblem: 'duration', isAnalyzing: false })
+          fail('duration', { isAnalyzing: false })
           return
         }
         /*
@@ -169,7 +212,7 @@ export const createProjectSlice: StateCreator<ProjectState, [], [], ProjectState
          * goes into the audio, and the audio goes into the output file.
          */
         if (!result.audioBuffer) {
-          set({ analysisProblem: 'noAudio', isAnalyzing: false })
+          fail('noAudio', { isAnalyzing: false })
           return
         }
         set({ mediaAnalysis: result, isAnalyzing: false })
@@ -179,7 +222,7 @@ export const createProjectSlice: StateCreator<ProjectState, [], [], ProjectState
         // thrown away along with the exception, and someone with a 4K clip read about an
         // analysis failure instead of “resolution too high”.
         const problem = isMediaValidationError(err) ? DEMUX_PROBLEM[err.code] : 'analysis'
-        set({ analysisProblem: problem, isAnalyzing: false })
+        fail(problem, { isAnalyzing: false })
       }
     },
   }

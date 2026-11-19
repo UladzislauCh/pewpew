@@ -1,6 +1,7 @@
 import { useCallback, useRef, useState } from 'react'
 import type { DragEvent } from 'react'
 import { useTranslation } from 'react-i18next'
+import { trackEvent } from '../../../shared/analytics/track'
 import { checkVideoFile, getMediaLimitCopy, MEDIA_LIMITS } from '../model/mediaLimits'
 import { useWizardStore } from '../store/wizardStore'
 import '../../../shared/ui/Dropzone.css'
@@ -28,6 +29,17 @@ export function VideoDropzone({ onVideoSelected }: VideoDropzoneProps) {
             rejectVideo(problem)
             return
           }
+          /*
+           * A CLIP WAS SUPPLIED — and this is the only place that knows it (ADR 0014).
+           * `setVideoFile` is also the clip-replaced and clip-cleared path, so it isn't a
+           * stand-in for the fact.
+           *
+           * Size only. The file NAME must never reach analytics: it's personal data, and
+           * people name their clips after themselves, their games and their folders.
+           * Duration isn't known yet either — `checkVideoFile` looks at type, size and the
+           * leading bytes; the duration net runs later, during demuxing.
+           */
+          trackEvent('video_upload', { size_mb: Number((file.size / (1024 * 1024)).toFixed(1)) })
           onVideoSelected(file)
         })
         // The file couldn't be read — sniffing never happened. To the person this is
